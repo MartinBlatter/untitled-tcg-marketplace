@@ -1,0 +1,72 @@
+{
+    "helpCenter": {
+        "title": "Hilfezentrum",
+        "subtitle": "Finden Sie Antworten auf Ihre Fragen zur Nutzung unserer Plattform",
+        "searchPlaceholder": "Hilfsartikel durchsuchen...",
+        "categories": "Kategorien",
+        "tags": "Schlagwörter",
+        "activeFilters": "Aktive Filter",
+        "noResultsFound": "Keine Artikel gefunden. Versuchen Sie, Ihre Suche oder Filter anzupassen.",
+        "lastUpdated": "Zuletzt aktualisiert",
+        "relatedTopics": "Verwandte Themen",
+        "backToHelpCenter": "Zurück zum Hilfezentrum",
+        "wasThisHelpful": "War dieser Artikel hilfreich?",
+        "categoryLabels": {
+            "inventory": "Inventar",
+            "statistics": "Statistiken",
+            "shipping": "Versand",
+            "wishlists": "Wunschlisten",
+            "profile": "Profil",
+            "purchases": "Bestellungen",
+            "sales": "Verkäufe",
+            "messages": "Nachrichten",
+            "checkout": "Zur Kasse"
+        },
+        "article": {
+            "title": "Hilfezentrum",
+            "backToHelpCenter": "Zurück zum Hilfezentrum",
+            "languageFallbackMessage": "Dieser Artikel ist nicht in {requested} verfügbar. Version in {available} wird angezeigt.",
+            "lastUpdated": "Zuletzt aktualisiert",
+            "relatedTopics": "Verwandte Themen",
+            "relatedArticles": "Verwandte Artikel",
+            "availableIn": "Verfügbar in {language}",
+            "wasThisHelpful": "War dieser Artikel hilfreich?",
+            "categoryLabels": {
+                "inventory": "Inventar",
+                "statistics": "Statistiken",
+                "shipping": "Versand",
+                "wishlists": "Wunschlisten",
+                "profile": "Profil",
+                "purchases": "Bestellungen",
+                "sales": "Verkäufe",
+                "messages": "Nachrichten",
+                "checkout": "Zur Kasse"
+            },
+            "tags": {
+                "beginners": "Für Anfänger",
+                "advanced": "Fortgeschritten",
+                "shipping": "Versand",
+                "payment": "Bezahlung",
+                "returns": "Rückgaben",
+                "account": "Konto",
+                "security": "Sicherheit",
+                "orders": "Bestellungen",
+                "selling": "Verkaufen",
+                "buying": "Kaufen",
+                "inventory": "Inventar",
+                "management": "Verwaltung",
+                "cards": "Karten",
+                "sales": "Verkäufe",
+                "statistics": "Statistiken",
+                "data": "Daten",
+                "packaging": "Verpackung",
+                "international": "International",
+                "profile": "Profil",
+                "settings": "Einstellungen",
+                "wishlist": "Wunschliste",
+                "collecting": "Sammeln",
+                "wants": "Gesuche"
+            }
+        }
+    }
+}

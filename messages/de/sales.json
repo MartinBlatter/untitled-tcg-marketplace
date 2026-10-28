@@ -1,0 +1,108 @@
+{
+    "sales": {
+        "title": "Verkäufe",
+        "sale": "Verkauf",
+        "saleDate": "Verkaufsdatum",
+        "saleStatus": "Verkaufsstatus",
+        "paymentStatus": "Zahlungsstatus",
+        "shippingStatus": "Versandstatus",
+        "total": "Gesamt",
+        "saleStatuses": {
+            "unpaid": "Unbezahlt",
+            "paid": "Bezahlt",
+            "shipped": "Versandt",
+            "delivered": "Geliefert",
+            "cancelled": "Storniert",
+            "notArrived": "Nicht angekommen",
+            "packed": "Verpackt",
+            "inCart": "Im Warenkorb"
+        },
+        "paymentStatuses": {
+            "unpaid": "Unbezahlt",
+            "paid": "Bezahlt"
+        },
+        "shippingStatuses": {
+            "unshipped": "Nicht versandt",
+            "shipped": "Versandt",
+            "delivered": "Geliefert",
+            "notArrived": "Nicht angekommen"
+        },
+        "navbar": {
+            "unpaid": "Unbezahlt",
+            "paid": "Bezahlt",
+            "shipped": "Versandt",
+            "delivered": "Geliefert",
+            "cancelled": "Storniert",
+            "notArrived": "Nicht angekommen",
+            "packed": "Verpackt",
+            "inCart": "Im Warenkorb"
+        },
+        "unpaid": {
+            "title": "Unbezahlte Verkäufe",
+            "noSales": "Keine unbezahlten Verkäufe gefunden"
+        },
+        "paid": {
+            "title": "Bezahlte Verkäufe",
+            "noSales": "Keine bezahlten Verkäufe gefunden"
+        },
+        "packed": {
+            "title": "Verpackte Verkäufe",
+            "noSales": "Keine verpackten Verkäufe gefunden"
+        },
+        "shipped": {
+            "title": "Versandte Verkäufe",
+            "noSales": "Keine versandten Verkäufe gefunden"
+        },
+        "delivered": {
+            "title": "Gelieferte Verkäufe",
+            "noSales": "Keine gelieferten Verkäufe gefunden"
+        },
+        "cancelled": {
+            "title": "Stornierte Verkäufe",
+            "noSales": "Keine stornierten Verkäufe gefunden"
+        },
+        "notArrived": {
+            "title": "Nicht angekommene Verkäufe",
+            "noSales": "Keine nicht angekommenen Verkäufe gefunden"
+        },
+        "inCart": {
+            "title": "Im Warenkorb",
+            "noSales": "Keine im Warenkorb gefundenen Verkäufe",
+            "item": "Artikel",
+            "removeCartSuccess": "Warenkorb erfolgreich gelöscht",
+            "removeCartError": "Fehler beim löschen vom Warenkorb"
+        },
+        "removeCart": "Aus Warenkorb entfernen",
+        "setAsPacked": "Auf 'Verpackt' setzen",
+        "setAsShipped": "Auf 'Versandt' setzen",
+        "relistItems": "Artikel erneut zum Verkauf anbieten",
+        "singleOrder": {
+            "shippingStatusChangeSuccess": "Status erfolgreich gesetzt",
+            "shippingStatusChangeError": "Fehler beim setzen des Status",
+            "relistItemsSuccess": "Artikel wurden erfolgreich erneut zum Verkauf eingestellt",
+            "relistItemsError": "Fehler beim erneuten Einstellen der Artikel",
+            "relistItemsConfirmTitle": "Artikel erneut einstellen",
+            "relistItemsConfirmDescription": "Möchten Sie die folgenden Artikel wirklich erneut zum Verkauf einstellen?"
+        },
+        "setAsNotPacked": "Auf unverpackt zurücksetzen",
+        "setAsNotShipped": "Zurück auf unversandt setzen",
+        "refund": "Rückerstattung",
+        "refundDialogTitle": "Bestellung rückerstatten",
+        "refundAmount": "Rückerstattungsbetrag",
+        "refundMaxAmount": "Maximaler Rückerstattungsbetrag: {amount}",
+        "refundSuccess": "Rückerstattung erfolgreich",
+        "refundError": "Fehler bei der Rückerstattung",
+        "invalidRefundAmount": "Bitte geben Sie einen gültigen Rückerstattungsbetrag ein",
+        "trackingNumber": {
+            "title": "Sendungsnummer",
+            "description": "Geben Sie die Sendungsnummer für diese Sendung ein. Diese wird für den Käufer sichtbar sein.",
+            "label": "Sendungsnummer",
+            "add": "Sendungsnummer hinzufügen",
+            "update": "Sendungsnummer aktualisieren",
+            "number": "Sendungsnummer",
+            "updateSuccess": "Sendungsnummer erfolgreich aktualisiert",
+            "updateError": "Fehler beim Aktualisieren der Sendungsnummer",
+            "notAvailableYet": "Sendungsnummer noch nicht angegeben"
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "sales": {
+        "title": "Ventas",
+        "sale": "Venta",
+        "saleDate": "Fecha de venta",
+        "saleStatus": "Estado de venta",
+        "paymentStatus": "Estado de pago",
+        "shippingStatus": "Estado de envío",
+        "total": "Total",
+        "saleStatuses": {
+            "unpaid": "Sin pagar",
+            "paid": "Pagado",
+            "shipped": "Enviado",
+            "delivered": "Entregado",
+            "cancelled": "Cancelado",
+            "notArrived": "No recibido",
+            "packed": "Embalado",
+            "inCart": "En el carrito"
+        },
+        "paymentStatuses": {
+            "unpaid": "Sin pagar",
+            "paid": "Pagado"
+        },
+        "shippingStatuses": {
+            "unshipped": "Sin enviar",
+            "shipped": "Enviado",
+            "delivered": "Entregado",
+            "notArrived": "No recibido"
+        },
+        "navbar": {
+            "unpaid": "Sin pagar",
+            "paid": "Pagado",
+            "shipped": "Enviado",
+            "delivered": "Entregado",
+            "cancelled": "Cancelado",
+            "notArrived": "No recibido",
+            "packed": "Embalado",
+            "inCart": "En el carrito"
+        },
+        "unpaid": {
+            "title": "Ventas sin pagar",
+            "noSales": "No se encontraron ventas sin pagar"
+        },
+        "paid": {
+            "title": "Ventas pagadas",
+            "noSales": "No se encontraron ventas pagadas"
+        },
+        "packed": {
+            "title": "Ventas embaladas",
+            "noSales": "No se encontraron ventas embaladas"
+        },
+        "shipped": {
+            "title": "Ventas enviadas",
+            "noSales": "No se encontraron ventas enviadas"
+        },
+        "delivered": {
+            "title": "Ventas entregadas",
+            "noSales": "No se encontraron ventas entregadas"
+        },
+        "cancelled": {
+            "title": "Ventas canceladas",
+            "noSales": "No se encontraron ventas canceladas"
+        },
+        "notArrived": {
+            "title": "Ventas no recibidas",
+            "noSales": "No se encontraron ventas no recibidas"
+        },
+        "inCart": {
+            "title": "En el carrito",
+            "noSales": "No se encontraron ventas en el carrito"
+        },
+        "removeCart": "Quitar del carrito",
+        "setAsPacked": "Marcar como empaquetado",
+        "setAsShipped": "Marcar como enviado",
+        "relistItems": "Poner artículos a la venta de nuevo",
+        "singleOrder": {
+            "shippingStatusChangeSuccess": "Estado cambiado con éxito",
+            "shippingStatusChangeError": "Error al cambiar el estado",
+            "relistItemsSuccess": "Los artículos se han puesto a la venta nuevamente",
+            "relistItemsError": "Error al poner los artículos a la venta nuevamente",
+            "relistItemsConfirmTitle": "Volver a publicar artículos",
+            "relistItemsConfirmDescription": "¿Está seguro de que desea volver a publicar los siguientes artículos?"
+        },
+        "setAsNotPacked": "Marcar como no empaquetado",
+        "setAsNotShipped": "Marcar como no enviado",
+        "refund": "Reembolsar",
+        "refundDialogTitle": "Reembolsar pedido",
+        "refundAmount": "Cantidad a reembolsar",
+        "refundMaxAmount": "Cantidad máxima de reembolso: {amount}",
+        "refundSuccess": "Reembolso realizado con éxito",
+        "refundError": "Error al procesar el reembolso",
+        "invalidRefundAmount": "Por favor, introduzca una cantidad válida de reembolso",
+        "trackingNumber": {
+            "title": "Número de seguimiento",
+            "description": "Introduzca el número de seguimiento para este envío. Será visible para el comprador.",
+            "label": "Número de seguimiento",
+            "add": "Añadir número de seguimiento",
+            "update": "Actualizar número de seguimiento",
+            "number": "Número de seguimiento",
+            "updateSuccess": "Número de seguimiento actualizado con éxito",
+            "updateError": "Error al actualizar el número de seguimiento",
+            "notAvailableYet": "Número de seguimiento aún no proporcionado"
+        }
+    }
+}

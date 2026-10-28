@@ -1,0 +1,46 @@
+{
+    "statistics": {
+        "title": "Statistics",
+        "salesTitle": "Sales Statistics",
+        "purchasesTitle": "Purchases Statistics",
+        "totalSales": "Total Sales",
+        "totalPurchases": "Total Purchases",
+        "salesVolume": "Sales Volume",
+        "purchasesVolume": "Purchases Volume",
+        "topSellingProducts": "Top Selling Products",
+        "topPurchasedProducts": "Top Purchased Products",
+        "monthlySales": "Monthly Sales",
+        "monthlyPurchases": "Monthly Purchases",
+        "dateRange": {
+            "last7Days": "Last 7 Days",
+            "last30Days": "Last 30 Days",
+            "last90Days": "Last 90 Days",
+            "lastYear": "Last Year",
+            "custom": "Custom Range",
+            "label": "Timeperiod",
+            "startDate": "Start Date",
+            "endDate": "End date"
+        },
+        "metrics": {
+            "orders": "Orders",
+            "revenue": "Revenue",
+            "avgOrderValue": "Average Order Value",
+            "items": "Items"
+        },
+        "filters": {
+            "title": "Filters",
+            "apply": "Apply Filters",
+            "reset": "Reset"
+        },
+        "noData": "No data available for the selected period",
+        "incompatibleData": "Cannot display chart: incompatible data format",
+        "statCard": {
+            "title": "Statistic Title",
+            "value": "Statistic Value"
+        },
+        "totalRevenue": "Total Revenue",
+        "month": "Month",
+        "revenue": "Revenue",
+        "amount": "Amount"
+    }
+}

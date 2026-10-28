@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 500" width="1900" height="500" role="img" aria-label="Abstract fan of trading cards in teal and amber">
+  <defs>
+    <linearGradient id="b1-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07262A"/>
+      <stop offset="0.55" stop-color="#0E4A4F"/>
+      <stop offset="1" stop-color="#0A3B42"/>
+    </linearGradient>
+    <radialGradient id="b1-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22A699" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22A699" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b1-warm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F29727" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#F29727" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b1-card" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#F3FBFA" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#9FD8D2" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="b1-card-hero" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#FFD9A1"/>
+      <stop offset="1" stop-color="#F29727"/>
+    </linearGradient>
+    <linearGradient id="b1-art" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B6F73" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0D3F47" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="b1-vignette" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#04171A" stop-opacity="0.85"/>
+      <stop offset="0.3" stop-color="#04171A" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#04171A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04171A" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1900" height="500" fill="url(#b1-bg)"/>
+  <ellipse cx="950" cy="250" rx="760" ry="420" fill="url(#b1-glow)"/>
+  <ellipse cx="1430" cy="120" rx="420" ry="300" fill="url(#b1-warm)"/>
+
+  <!-- Faint lattice, clipped to the canvas so it never bleeds at other aspects. -->
+  <g stroke="#7FE3DA" stroke-opacity="0.10" stroke-width="1.5">
+    <path d="M0 140 L1900 60"/>
+    <path d="M0 250 L1900 190"/>
+    <path d="M0 380 L1900 330"/>
+    <path d="M260 0 L380 500"/>
+    <path d="M1520 0 L1640 500"/>
+  </g>
+
+  <g fill="#7FE3DA" fill-opacity="0.22">
+    <circle cx="300" cy="110" r="3"/>
+    <circle cx="520" cy="400" r="2.5"/>
+    <circle cx="1380" cy="420" r="3"/>
+    <circle cx="1680" cy="190" r="2.5"/>
+    <circle cx="170" cy="310" r="2"/>
+  </g>
+
+  <!--
+    The fan. Each card is drawn centred on the origin, then placed. Painted
+    outside-in so the highlighted centre card ends up on top, the way a fan held
+    in one hand actually overlaps.
+  -->
+  <defs>
+    <g id="b1-card-face">
+      <rect x="-95" y="-133" width="190" height="266" rx="12" fill="url(#b1-card)"/>
+      <rect x="-78" y="-116" width="156" height="150" rx="6" fill="url(#b1-art)"/>
+      <rect x="-78" y="52" width="110" height="9" rx="4.5" fill="#0D3F47" fill-opacity="0.45"/>
+      <rect x="-78" y="76" width="78" height="9" rx="4.5" fill="#0D3F47" fill-opacity="0.3"/>
+    </g>
+  </defs>
+  <g>
+    <use href="#b1-card-face" transform="translate(620 300) rotate(-22)" opacity="0.8"/>
+    <use href="#b1-card-face" transform="translate(1280 300) rotate(22)" opacity="0.8"/>
+    <use href="#b1-card-face" transform="translate(785 268) rotate(-11)" opacity="0.9"/>
+    <use href="#b1-card-face" transform="translate(1115 268) rotate(11)" opacity="0.9"/>
+    <g transform="translate(950 256)">
+      <rect x="-101" y="-141" width="202" height="282" rx="13" fill="url(#b1-card-hero)"/>
+      <rect x="-83" y="-123" width="166" height="158" rx="6" fill="#7A3C06" fill-opacity="0.55"/>
+      <path d="M0 -92 L26 -44 L0 -8 L-26 -44 Z" fill="#FFE9C9" fill-opacity="0.9"/>
+      <rect x="-83" y="56" width="118" height="10" rx="5" fill="#7A3C06" fill-opacity="0.5"/>
+      <rect x="-83" y="82" width="84" height="10" rx="5" fill="#7A3C06" fill-opacity="0.35"/>
+    </g>
+  </g>
+
+  <rect width="1900" height="500" fill="url(#b1-vignette)"/>
+</svg>

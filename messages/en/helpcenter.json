@@ -1,0 +1,72 @@
+{
+    "helpCenter": {
+        "title": "Help Center",
+        "subtitle": "Find answers to your questions about using our platform",
+        "searchPlaceholder": "Search for help articles...",
+        "categories": "Categories",
+        "tags": "Tags",
+        "activeFilters": "Active filters",
+        "noResultsFound": "No articles found. Try adjusting your search or filters.",
+        "lastUpdated": "Last updated",
+        "relatedTopics": "Related topics",
+        "backToHelpCenter": "Back to Help Center",
+        "wasThisHelpful": "Was this article helpful?",
+        "categoryLabels": {
+            "inventory": "Inventory",
+            "statistics": "Statistics",
+            "shipping": "Shipping",
+            "wishlists": "Wishlists",
+            "profile": "Profile",
+            "purchases": "Purchases",
+            "sales": "Sales",
+            "messages": "Messages",
+            "checkout": "Checkout"
+        },
+        "article": {
+            "title": "Help Center",
+            "backToHelpCenter": "Back to Help Center",
+            "languageFallbackMessage": "This article is not available in {requested}. Showing version in {available}.",
+            "lastUpdated": "Last updated",
+            "relatedTopics": "Related topics",
+            "relatedArticles": "Related Articles",
+            "availableIn": "Available in {language}",
+            "wasThisHelpful": "Was this article helpful?",
+            "categoryLabels": {
+                "inventory": "Inventory",
+                "statistics": "Statistics",
+                "shipping": "Shipping",
+                "wishlists": "Wishlists",
+                "profile": "Profile",
+                "purchases": "Purchases",
+                "sales": "Sales",
+                "messages": "Messages",
+                "checkout": "Checkout"
+            },
+            "tags": {
+                "beginners": "For Beginners",
+                "advanced": "Advanced",
+                "shipping": "Shipping",
+                "payment": "Payment",
+                "returns": "Returns",
+                "account": "Account",
+                "security": "Security",
+                "orders": "Orders",
+                "selling": "Selling",
+                "buying": "Buying",
+                "inventory": "Inventory",
+                "management": "Management",
+                "cards": "Cards",
+                "sales": "Sales",
+                "statistics": "Statistics",
+                "data": "Data",
+                "packaging": "Packaging",
+                "international": "International",
+                "profile": "Profile",
+                "settings": "Settings",
+                "wishlist": "Wishlist",
+                "collecting": "Collecting",
+                "wants": "Wants"
+            }
+        }
+    }
+}

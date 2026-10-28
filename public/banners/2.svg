@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 500" width="1900" height="500" role="img" aria-label="Abstract isometric stacks of trading cards in amber and teal">
+  <defs>
+    <linearGradient id="b2-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B1A09"/>
+      <stop offset="0.5" stop-color="#53300F"/>
+      <stop offset="1" stop-color="#1C1106"/>
+    </linearGradient>
+    <radialGradient id="b2-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F29727" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#F29727" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b2-cool" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22A699" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22A699" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b2-top" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#FFE7C4"/>
+      <stop offset="1" stop-color="#F0BE80"/>
+    </linearGradient>
+    <linearGradient id="b2-top-cool" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#CBF2ED"/>
+      <stop offset="1" stop-color="#6CC3B9"/>
+    </linearGradient>
+    <radialGradient id="b2-shadow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1A0E04" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#1A0E04" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#1A0E04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b2-vignette" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#150B03" stop-opacity="0.9"/>
+      <stop offset="0.3" stop-color="#150B03" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#150B03" stop-opacity="0"/>
+      <stop offset="1" stop-color="#150B03" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!--
+      One card as a flat box seen from above-left. The top face is the rhombus
+      T -> T+R -> T+R+L -> T+L with R = (120,38) and L = (-170,54); the two
+      quads below it are the 14px-thick edges that make it read as a solid.
+    -->
+    <g id="b2-card">
+      <path d="M0 0 L120 38 L-50 92 L-170 54 Z" fill="url(#b2-top)"/>
+      <path d="M120 38 L-50 92 L-50 106 L120 52 Z" fill="#9A6020"/>
+      <path d="M-170 54 L-50 92 L-50 106 L-170 68 Z" fill="#6E4011"/>
+    </g>
+    <g id="b2-card-cool">
+      <path d="M0 0 L120 38 L-50 92 L-170 54 Z" fill="url(#b2-top-cool)"/>
+      <path d="M120 38 L-50 92 L-50 106 L120 52 Z" fill="#2F8077"/>
+      <path d="M-170 54 L-50 92 L-50 106 L-170 68 Z" fill="#1F5C56"/>
+    </g>
+  </defs>
+
+  <rect width="1900" height="500" fill="url(#b2-bg)"/>
+  <ellipse cx="950" cy="300" rx="800" ry="430" fill="url(#b2-glow)"/>
+  <ellipse cx="480" cy="120" rx="400" ry="270" fill="url(#b2-cool)"/>
+
+  <g stroke="#FFD9A1" stroke-opacity="0.08" stroke-width="1.5">
+    <path d="M0 400 L1900 340"/>
+    <path d="M0 100 L1900 155"/>
+    <path d="M690 0 L610 500"/>
+    <path d="M1250 0 L1330 500"/>
+  </g>
+
+  <!-- Stacks are drawn back-to-front; within a stack the lowest card is first. -->
+  <g>
+    <g transform="translate(700 300)">
+      <use href="#b2-card" y="0"/>
+      <use href="#b2-card" y="-17"/>
+      <use href="#b2-card-cool" y="-34"/>
+      <use href="#b2-card" y="-51"/>
+      <use href="#b2-card" y="-68"/>
+    </g>
+
+    <g transform="translate(1310 318)">
+      <use href="#b2-card" y="0"/>
+      <use href="#b2-card" y="-17"/>
+      <use href="#b2-card" y="-34"/>
+      <use href="#b2-card-cool" y="-51"/>
+    </g>
+
+    <g transform="translate(1000 392)">
+      <use href="#b2-card" y="0"/>
+      <use href="#b2-card" y="-17"/>
+      <use href="#b2-card" y="-34"/>
+      <use href="#b2-card" y="-51"/>
+      <use href="#b2-card" y="-68"/>
+      <use href="#b2-card" y="-85"/>
+      <use href="#b2-card-cool" y="-102"/>
+      <use href="#b2-card" y="-119"/>
+    </g>
+
+    <!-- One lifted clear of the pile. The shadow lands on the stack's top face,
+         which is what sells the gap. -->
+    <ellipse cx="975" cy="314" rx="104" ry="30" fill="url(#b2-shadow)"/>
+    <use href="#b2-card" transform="translate(1000 132)"/>
+  </g>
+
+  <rect width="1900" height="500" fill="url(#b2-vignette)"/>
+</svg>

@@ -1,0 +1,2 @@
+# Run tests for the cron endpoints
+pnpm test:cron

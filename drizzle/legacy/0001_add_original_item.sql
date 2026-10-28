@@ -1,0 +1,1 @@
+ALTER TABLE `orderItem` ADD COLUMN `originalItem` JSON;

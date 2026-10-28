@@ -1,0 +1,16 @@
+{
+    "messages": {
+        "dialog": {
+            "title": "Send message to {user}",
+            "field": {
+                "title": "Title",
+                "message": "Message"
+            }
+        },
+        "successSend": "Successfully sent message",
+        "errorSend": "Error sending message",
+        "errorNotFound": "No messages",
+        "title": "Messages",
+        "selectMessage": "Select a conversation to view messages"
+    }
+}

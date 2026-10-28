@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 400" role="img" aria-label="Single card">
+  <g fill="none" stroke="#8893A3" stroke-width="3" stroke-linejoin="round">
+    <rect x="56" y="80" width="152" height="242" rx="10" fill="#2AA79B" fill-opacity="0.06"/>
+    <rect x="71" y="96" width="122" height="16" rx="8"/>
+    <rect x="71" y="124" width="122" height="104" rx="6" fill="#2AA79B" fill-opacity="0.18"/>
+    <rect x="71" y="240" width="122" height="14" rx="7"/>
+  </g>
+  <g fill="#8893A3">
+    <rect x="71" y="270" width="122" height="8" rx="4"/>
+    <rect x="71" y="288" width="98" height="8" rx="4"/>
+    <rect x="71" y="306" width="74" height="8" rx="4"/>
+  </g>
+</svg>

@@ -1,0 +1,2261 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "prevId": "",
+  "version": "5",
+  "dialect": "mysql",
+  "tables": {
+    "cardforeigndata": {
+      "name": "cardforeigndata",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "faceName": {
+          "autoincrement": false,
+          "name": "faceName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flavorText": {
+          "autoincrement": false,
+          "name": "flavorText",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "identifiers": {
+          "autoincrement": false,
+          "name": "identifiers",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "language": {
+          "autoincrement": false,
+          "name": "language",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "multiverseId": {
+          "autoincrement": false,
+          "name": "multiverseId",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name": {
+          "autoincrement": false,
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "text": {
+          "autoincrement": false,
+          "name": "text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "type": {
+          "autoincrement": false,
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {
+        "cardforeigndata_id": {
+          "name": "cardforeigndata_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "cardForeignData_uuid": {
+          "name": "cardForeignData_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "cardidentifiers": {
+      "name": "cardidentifiers",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cardKingdomEtchedId": {
+          "autoincrement": false,
+          "name": "cardKingdomEtchedId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardKingdomFoilId": {
+          "autoincrement": false,
+          "name": "cardKingdomFoilId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardKingdomId": {
+          "autoincrement": false,
+          "name": "cardKingdomId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardsphereFoilId": {
+          "autoincrement": false,
+          "name": "cardsphereFoilId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardsphereId": {
+          "autoincrement": false,
+          "name": "cardsphereId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mcmId": {
+          "autoincrement": false,
+          "name": "mcmId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mcmMetaId": {
+          "autoincrement": false,
+          "name": "mcmMetaId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgArenaId": {
+          "autoincrement": false,
+          "name": "mtgArenaId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgjsonFoilVersionId": {
+          "autoincrement": false,
+          "name": "mtgjsonFoilVersionId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgjsonNonFoilVersionId": {
+          "autoincrement": false,
+          "name": "mtgjsonNonFoilVersionId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgjsonV4Id": {
+          "autoincrement": false,
+          "name": "mtgjsonV4Id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgoFoilId": {
+          "autoincrement": false,
+          "name": "mtgoFoilId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgoId": {
+          "autoincrement": false,
+          "name": "mtgoId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "multiverseId": {
+          "autoincrement": false,
+          "name": "multiverseId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallCardBackId": {
+          "autoincrement": false,
+          "name": "scryfallCardBackId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallId": {
+          "autoincrement": false,
+          "name": "scryfallId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallIllustrationId": {
+          "autoincrement": false,
+          "name": "scryfallIllustrationId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallOracleId": {
+          "autoincrement": false,
+          "name": "scryfallOracleId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tcgplayerEtchedProductId": {
+          "autoincrement": false,
+          "name": "tcgplayerEtchedProductId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tcgplayerProductId": {
+          "autoincrement": false,
+          "name": "tcgplayerProductId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {
+        "cardidentifiers_id": {
+          "name": "cardidentifiers_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "cardIdentifiers_uuid": {
+          "name": "cardIdentifiers_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "cardlegalities": {
+      "name": "cardlegalities",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "alchemy": {
+          "autoincrement": false,
+          "name": "alchemy",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "brawl": {
+          "autoincrement": false,
+          "name": "brawl",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "commander": {
+          "autoincrement": false,
+          "name": "commander",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "duel": {
+          "autoincrement": false,
+          "name": "duel",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "explorer": {
+          "autoincrement": false,
+          "name": "explorer",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "future": {
+          "autoincrement": false,
+          "name": "future",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "gladiator": {
+          "autoincrement": false,
+          "name": "gladiator",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "historic": {
+          "autoincrement": false,
+          "name": "historic",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "legacy": {
+          "autoincrement": false,
+          "name": "legacy",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "modern": {
+          "autoincrement": false,
+          "name": "modern",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "oathbreaker": {
+          "autoincrement": false,
+          "name": "oathbreaker",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "oldschool": {
+          "autoincrement": false,
+          "name": "oldschool",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "pauper": {
+          "autoincrement": false,
+          "name": "pauper",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "paupercommander": {
+          "autoincrement": false,
+          "name": "paupercommander",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "penny": {
+          "autoincrement": false,
+          "name": "penny",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "pioneer": {
+          "autoincrement": false,
+          "name": "pioneer",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "predh": {
+          "autoincrement": false,
+          "name": "predh",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "premodern": {
+          "autoincrement": false,
+          "name": "premodern",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "standard": {
+          "autoincrement": false,
+          "name": "standard",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "standardbrawl": {
+          "autoincrement": false,
+          "name": "standardbrawl",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "timeless": {
+          "autoincrement": false,
+          "name": "timeless",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "vintage": {
+          "autoincrement": false,
+          "name": "vintage",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "cardlegalities_id": {
+          "name": "cardlegalities_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "cardLegalities_uuid": {
+          "name": "cardLegalities_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "cardpurchaseurls": {
+      "name": "cardpurchaseurls",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cardKingdom": {
+          "autoincrement": false,
+          "name": "cardKingdom",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardKingdomEtched": {
+          "autoincrement": false,
+          "name": "cardKingdomEtched",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardKingdomFoil": {
+          "autoincrement": false,
+          "name": "cardKingdomFoil",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardmarket": {
+          "autoincrement": false,
+          "name": "cardmarket",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tcgplayer": {
+          "autoincrement": false,
+          "name": "tcgplayer",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tcgplayerEtched": {
+          "autoincrement": false,
+          "name": "tcgplayerEtched",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {
+        "cardpurchaseurls_id": {
+          "name": "cardpurchaseurls_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "cardPurchaseUrls_uuid": {
+          "name": "cardPurchaseUrls_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "cardrulings": {
+      "name": "cardrulings",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "date": {
+          "autoincrement": false,
+          "name": "date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "text": {
+          "autoincrement": false,
+          "name": "text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {
+        "cardrulings_id": {
+          "name": "cardrulings_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "cardRulings_uuid": {
+          "name": "cardRulings_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "cards": {
+      "name": "cards",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "artist": {
+          "autoincrement": false,
+          "name": "artist",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "artistIds": {
+          "autoincrement": false,
+          "name": "artistIds",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "asciiName": {
+          "autoincrement": false,
+          "name": "asciiName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "attractionLights": {
+          "autoincrement": false,
+          "name": "attractionLights",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "availability": {
+          "autoincrement": false,
+          "name": "availability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "boosterTypes": {
+          "autoincrement": false,
+          "name": "boosterTypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "borderColor": {
+          "autoincrement": false,
+          "name": "borderColor",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardParts": {
+          "autoincrement": false,
+          "name": "cardParts",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "colorIdentity": {
+          "autoincrement": false,
+          "name": "colorIdentity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "colorIndicator": {
+          "autoincrement": false,
+          "name": "colorIndicator",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "colors": {
+          "autoincrement": false,
+          "name": "colors",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "defense": {
+          "autoincrement": false,
+          "name": "defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "duelDeck": {
+          "autoincrement": false,
+          "name": "duelDeck",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "edhrecRank": {
+          "autoincrement": false,
+          "name": "edhrecRank",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "edhrecSaltiness": {
+          "autoincrement": false,
+          "name": "edhrecSaltiness",
+          "type": "float",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faceConvertedManaCost": {
+          "autoincrement": false,
+          "name": "faceConvertedManaCost",
+          "type": "float",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faceFlavorName": {
+          "autoincrement": false,
+          "name": "faceFlavorName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faceManaValue": {
+          "autoincrement": false,
+          "name": "faceManaValue",
+          "type": "float",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faceName": {
+          "autoincrement": false,
+          "name": "faceName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "finishes": {
+          "autoincrement": false,
+          "name": "finishes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flavorName": {
+          "autoincrement": false,
+          "name": "flavorName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flavorText": {
+          "autoincrement": false,
+          "name": "flavorText",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frameEffects": {
+          "autoincrement": false,
+          "name": "frameEffects",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frameVersion": {
+          "autoincrement": false,
+          "name": "frameVersion",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hand": {
+          "autoincrement": false,
+          "name": "hand",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hasAlternativeDeckLimit": {
+          "autoincrement": false,
+          "name": "hasAlternativeDeckLimit",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hasContentWarning": {
+          "autoincrement": false,
+          "name": "hasContentWarning",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hasFoil": {
+          "autoincrement": false,
+          "name": "hasFoil",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hasNonFoil": {
+          "autoincrement": false,
+          "name": "hasNonFoil",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isAlternative": {
+          "autoincrement": false,
+          "name": "isAlternative",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isFullArt": {
+          "autoincrement": false,
+          "name": "isFullArt",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isFunny": {
+          "autoincrement": false,
+          "name": "isFunny",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isOnlineOnly": {
+          "autoincrement": false,
+          "name": "isOnlineOnly",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isOversized": {
+          "autoincrement": false,
+          "name": "isOversized",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isPromo": {
+          "autoincrement": false,
+          "name": "isPromo",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isRebalanced": {
+          "autoincrement": false,
+          "name": "isRebalanced",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isReprint": {
+          "autoincrement": false,
+          "name": "isReprint",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isReserved": {
+          "autoincrement": false,
+          "name": "isReserved",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isStarter": {
+          "autoincrement": false,
+          "name": "isStarter",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isStorySpotlight": {
+          "autoincrement": false,
+          "name": "isStorySpotlight",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isTextless": {
+          "autoincrement": false,
+          "name": "isTextless",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isTimeshifted": {
+          "autoincrement": false,
+          "name": "isTimeshifted",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "keywords": {
+          "autoincrement": false,
+          "name": "keywords",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "language": {
+          "autoincrement": false,
+          "name": "language",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "layout": {
+          "autoincrement": false,
+          "name": "layout",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "leadershipSkills": {
+          "autoincrement": false,
+          "name": "leadershipSkills",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "life": {
+          "autoincrement": false,
+          "name": "life",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "loyalty": {
+          "autoincrement": false,
+          "name": "loyalty",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "manaCost": {
+          "autoincrement": false,
+          "name": "manaCost",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "manaValue": {
+          "autoincrement": false,
+          "name": "manaValue",
+          "type": "float",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name": {
+          "autoincrement": false,
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "number": {
+          "autoincrement": false,
+          "name": "number",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "originalPrintings": {
+          "autoincrement": false,
+          "name": "originalPrintings",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "originalReleaseDate": {
+          "autoincrement": false,
+          "name": "originalReleaseDate",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "originalText": {
+          "autoincrement": false,
+          "name": "originalText",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "originalType": {
+          "autoincrement": false,
+          "name": "originalType",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "otherFaceIds": {
+          "autoincrement": false,
+          "name": "otherFaceIds",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "power": {
+          "autoincrement": false,
+          "name": "power",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "printings": {
+          "autoincrement": false,
+          "name": "printings",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "promoTypes": {
+          "autoincrement": false,
+          "name": "promoTypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "rarity": {
+          "autoincrement": false,
+          "name": "rarity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "rebalancedPrintings": {
+          "autoincrement": false,
+          "name": "rebalancedPrintings",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "relatedCards": {
+          "autoincrement": false,
+          "name": "relatedCards",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "securityStamp": {
+          "autoincrement": false,
+          "name": "securityStamp",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "setCode": {
+          "autoincrement": false,
+          "name": "setCode",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "side": {
+          "autoincrement": false,
+          "name": "side",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "signature": {
+          "autoincrement": false,
+          "name": "signature",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sourceProducts": {
+          "autoincrement": false,
+          "name": "sourceProducts",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "subsets": {
+          "autoincrement": false,
+          "name": "subsets",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "subtypes": {
+          "autoincrement": false,
+          "name": "subtypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "supertypes": {
+          "autoincrement": false,
+          "name": "supertypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "text": {
+          "autoincrement": false,
+          "name": "text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "toughness": {
+          "autoincrement": false,
+          "name": "toughness",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "type": {
+          "autoincrement": false,
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "types": {
+          "autoincrement": false,
+          "name": "types",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "variations": {
+          "autoincrement": false,
+          "name": "variations",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "watermark": {
+          "autoincrement": false,
+          "name": "watermark",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "cards_id": {
+          "name": "cards_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "cards_uuid": {
+          "name": "cards_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "meta": {
+      "name": "meta",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "date": {
+          "autoincrement": false,
+          "name": "date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "version": {
+          "autoincrement": false,
+          "name": "version",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "meta_id": {
+          "name": "meta_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "setboostercontents": {
+      "name": "setboostercontents",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "boosterIndex": {
+          "autoincrement": false,
+          "name": "boosterIndex",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "boosterName": {
+          "autoincrement": false,
+          "name": "boosterName",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "setCode": {
+          "autoincrement": false,
+          "name": "setCode",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sheetName": {
+          "autoincrement": false,
+          "name": "sheetName",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sheetPicks": {
+          "autoincrement": false,
+          "name": "sheetPicks",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "setboostercontents_id": {
+          "name": "setboostercontents_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {
+        "setCode": {
+          "name": "setCode",
+          "columns": [
+            "setCode",
+            "sheetName",
+            "boosterName",
+            "boosterIndex"
+          ]
+        }
+      }
+    },
+    "setboostercontentweights": {
+      "name": "setboostercontentweights",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "boosterIndex": {
+          "autoincrement": false,
+          "name": "boosterIndex",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "boosterName": {
+          "autoincrement": false,
+          "name": "boosterName",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "boosterWeight": {
+          "autoincrement": false,
+          "name": "boosterWeight",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "setCode": {
+          "autoincrement": false,
+          "name": "setCode",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "setboostercontentweights_id": {
+          "name": "setboostercontentweights_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "setboostersheetcards": {
+      "name": "setboostersheetcards",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "boosterName": {
+          "autoincrement": false,
+          "name": "boosterName",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardUuid": {
+          "autoincrement": false,
+          "name": "cardUuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cardWeight": {
+          "autoincrement": false,
+          "name": "cardWeight",
+          "type": "bigint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "setCode": {
+          "autoincrement": false,
+          "name": "setCode",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sheetName": {
+          "autoincrement": false,
+          "name": "sheetName",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "setboostersheetcards_id": {
+          "name": "setboostersheetcards_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {
+        "setCode": {
+          "name": "setCode",
+          "columns": [
+            "setCode",
+            "sheetName",
+            "boosterName",
+            "cardUuid"
+          ]
+        }
+      }
+    },
+    "setboostersheets": {
+      "name": "setboostersheets",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "boosterName": {
+          "autoincrement": false,
+          "name": "boosterName",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "setCode": {
+          "autoincrement": false,
+          "name": "setCode",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sheetHasBalanceColors": {
+          "autoincrement": false,
+          "name": "sheetHasBalanceColors",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sheetIsFoil": {
+          "autoincrement": false,
+          "name": "sheetIsFoil",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sheetName": {
+          "autoincrement": false,
+          "name": "sheetName",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "setboostersheets_id": {
+          "name": "setboostersheets_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {
+        "setCode": {
+          "name": "setCode",
+          "columns": [
+            "setCode",
+            "sheetName",
+            "boosterName"
+          ]
+        }
+      }
+    },
+    "sets": {
+      "name": "sets",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "baseSetSize": {
+          "autoincrement": false,
+          "name": "baseSetSize",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "block": {
+          "autoincrement": false,
+          "name": "block",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardsphereSetId": {
+          "autoincrement": false,
+          "name": "cardsphereSetId",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "code": {
+          "autoincrement": false,
+          "name": "code",
+          "type": "varchar(8)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "isFoilOnly": {
+          "autoincrement": false,
+          "name": "isFoilOnly",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isForeignOnly": {
+          "autoincrement": false,
+          "name": "isForeignOnly",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isNonFoilOnly": {
+          "autoincrement": false,
+          "name": "isNonFoilOnly",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isOnlineOnly": {
+          "autoincrement": false,
+          "name": "isOnlineOnly",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isPartialPreview": {
+          "autoincrement": false,
+          "name": "isPartialPreview",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "keyruneCode": {
+          "autoincrement": false,
+          "name": "keyruneCode",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "languages": {
+          "autoincrement": false,
+          "name": "languages",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mcmId": {
+          "autoincrement": false,
+          "name": "mcmId",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mcmIdExtras": {
+          "autoincrement": false,
+          "name": "mcmIdExtras",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mcmName": {
+          "autoincrement": false,
+          "name": "mcmName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgoCode": {
+          "autoincrement": false,
+          "name": "mtgoCode",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name": {
+          "autoincrement": false,
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "parentCode": {
+          "autoincrement": false,
+          "name": "parentCode",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "releaseDate": {
+          "autoincrement": false,
+          "name": "releaseDate",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tcgplayerGroupId": {
+          "autoincrement": false,
+          "name": "tcgplayerGroupId",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tokenSetCode": {
+          "autoincrement": false,
+          "name": "tokenSetCode",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "totalSetSize": {
+          "autoincrement": false,
+          "name": "totalSetSize",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "type": {
+          "autoincrement": false,
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "sets_id": {
+          "name": "sets_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {
+        "code": {
+          "name": "code",
+          "columns": [
+            "code"
+          ]
+        }
+      }
+    },
+    "settranslations": {
+      "name": "settranslations",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "language": {
+          "autoincrement": false,
+          "name": "language",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "setCode": {
+          "autoincrement": false,
+          "name": "setCode",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "translation": {
+          "autoincrement": false,
+          "name": "translation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "settranslations_id": {
+          "name": "settranslations_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "tokenidentifiers": {
+      "name": "tokenidentifiers",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cardKingdomEtchedId": {
+          "autoincrement": false,
+          "name": "cardKingdomEtchedId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardKingdomFoilId": {
+          "autoincrement": false,
+          "name": "cardKingdomFoilId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardKingdomId": {
+          "autoincrement": false,
+          "name": "cardKingdomId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardsphereFoilId": {
+          "autoincrement": false,
+          "name": "cardsphereFoilId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cardsphereId": {
+          "autoincrement": false,
+          "name": "cardsphereId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mcmId": {
+          "autoincrement": false,
+          "name": "mcmId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mcmMetaId": {
+          "autoincrement": false,
+          "name": "mcmMetaId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgArenaId": {
+          "autoincrement": false,
+          "name": "mtgArenaId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgjsonFoilVersionId": {
+          "autoincrement": false,
+          "name": "mtgjsonFoilVersionId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgjsonNonFoilVersionId": {
+          "autoincrement": false,
+          "name": "mtgjsonNonFoilVersionId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgjsonV4Id": {
+          "autoincrement": false,
+          "name": "mtgjsonV4Id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgoFoilId": {
+          "autoincrement": false,
+          "name": "mtgoFoilId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mtgoId": {
+          "autoincrement": false,
+          "name": "mtgoId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "multiverseId": {
+          "autoincrement": false,
+          "name": "multiverseId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallCardBackId": {
+          "autoincrement": false,
+          "name": "scryfallCardBackId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallId": {
+          "autoincrement": false,
+          "name": "scryfallId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallIllustrationId": {
+          "autoincrement": false,
+          "name": "scryfallIllustrationId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scryfallOracleId": {
+          "autoincrement": false,
+          "name": "scryfallOracleId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tcgplayerEtchedProductId": {
+          "autoincrement": false,
+          "name": "tcgplayerEtchedProductId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tcgplayerProductId": {
+          "autoincrement": false,
+          "name": "tcgplayerProductId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {
+        "tokenidentifiers_id": {
+          "name": "tokenidentifiers_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "tokenIdentifiers_uuid": {
+          "name": "tokenIdentifiers_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "tokens": {
+      "name": "tokens",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "artist": {
+          "autoincrement": false,
+          "name": "artist",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "artistIds": {
+          "autoincrement": false,
+          "name": "artistIds",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "asciiName": {
+          "autoincrement": false,
+          "name": "asciiName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "availability": {
+          "autoincrement": false,
+          "name": "availability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "boosterTypes": {
+          "autoincrement": false,
+          "name": "boosterTypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "borderColor": {
+          "autoincrement": false,
+          "name": "borderColor",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "colorIdentity": {
+          "autoincrement": false,
+          "name": "colorIdentity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "colors": {
+          "autoincrement": false,
+          "name": "colors",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "edhrecSaltiness": {
+          "autoincrement": false,
+          "name": "edhrecSaltiness",
+          "type": "float",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faceName": {
+          "autoincrement": false,
+          "name": "faceName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "finishes": {
+          "autoincrement": false,
+          "name": "finishes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flavorName": {
+          "autoincrement": false,
+          "name": "flavorName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flavorText": {
+          "autoincrement": false,
+          "name": "flavorText",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frameEffects": {
+          "autoincrement": false,
+          "name": "frameEffects",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frameVersion": {
+          "autoincrement": false,
+          "name": "frameVersion",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hasFoil": {
+          "autoincrement": false,
+          "name": "hasFoil",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hasNonFoil": {
+          "autoincrement": false,
+          "name": "hasNonFoil",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isFullArt": {
+          "autoincrement": false,
+          "name": "isFullArt",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isFunny": {
+          "autoincrement": false,
+          "name": "isFunny",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isOversized": {
+          "autoincrement": false,
+          "name": "isOversized",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isPromo": {
+          "autoincrement": false,
+          "name": "isPromo",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isReprint": {
+          "autoincrement": false,
+          "name": "isReprint",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "isTextless": {
+          "autoincrement": false,
+          "name": "isTextless",
+          "type": "tinyint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "keywords": {
+          "autoincrement": false,
+          "name": "keywords",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "language": {
+          "autoincrement": false,
+          "name": "language",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "layout": {
+          "autoincrement": false,
+          "name": "layout",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "manaCost": {
+          "autoincrement": false,
+          "name": "manaCost",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name": {
+          "autoincrement": false,
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "number": {
+          "autoincrement": false,
+          "name": "number",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "orientation": {
+          "autoincrement": false,
+          "name": "orientation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "originalText": {
+          "autoincrement": false,
+          "name": "originalText",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "originalType": {
+          "autoincrement": false,
+          "name": "originalType",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "otherFaceIds": {
+          "autoincrement": false,
+          "name": "otherFaceIds",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "power": {
+          "autoincrement": false,
+          "name": "power",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "promoTypes": {
+          "autoincrement": false,
+          "name": "promoTypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "relatedCards": {
+          "autoincrement": false,
+          "name": "relatedCards",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "reverseRelated": {
+          "autoincrement": false,
+          "name": "reverseRelated",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "securityStamp": {
+          "autoincrement": false,
+          "name": "securityStamp",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "setCode": {
+          "autoincrement": false,
+          "name": "setCode",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "side": {
+          "autoincrement": false,
+          "name": "side",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "signature": {
+          "autoincrement": false,
+          "name": "signature",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "subtypes": {
+          "autoincrement": false,
+          "name": "subtypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "supertypes": {
+          "autoincrement": false,
+          "name": "supertypes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "text": {
+          "autoincrement": false,
+          "name": "text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "toughness": {
+          "autoincrement": false,
+          "name": "toughness",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "type": {
+          "autoincrement": false,
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "types": {
+          "autoincrement": false,
+          "name": "types",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "autoincrement": false,
+          "name": "uuid",
+          "type": "varchar(36)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "watermark": {
+          "autoincrement": false,
+          "name": "watermark",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {
+        "tokens_id": {
+          "name": "tokens_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "indexes": {
+        "tokens_uuid": {
+          "name": "tokens_uuid",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "tables": {},
+    "indexes": {}
+  }
+}

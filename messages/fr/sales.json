@@ -1,0 +1,105 @@
+{
+    "sales": {
+        "title": "Ventes",
+        "sale": "Vente",
+        "saleDate": "Date de vente",
+        "saleStatus": "Statut de vente",
+        "paymentStatus": "Statut de paiement",
+        "shippingStatus": "Statut d'expédition",
+        "total": "Total",
+        "saleStatuses": {
+            "unpaid": "Non payé",
+            "paid": "Payé",
+            "shipped": "Expédié",
+            "delivered": "Livré",
+            "cancelled": "Annulé",
+            "notArrived": "Non reçu",
+            "packed": "Emballé",
+            "inCart": "Dans le panier"
+        },
+        "paymentStatuses": {
+            "unpaid": "Non payé",
+            "paid": "Payé"
+        },
+        "shippingStatuses": {
+            "unshipped": "Non expédié",
+            "shipped": "Expédié",
+            "delivered": "Livré",
+            "notArrived": "Non reçu"
+        },
+        "navbar": {
+            "unpaid": "Non payé",
+            "paid": "Payé",
+            "shipped": "Expédié",
+            "delivered": "Livré",
+            "cancelled": "Annulé",
+            "notArrived": "Non reçu",
+            "packed": "Emballé",
+            "inCart": "Dans le panier"
+        },
+        "unpaid": {
+            "title": "Ventes non payées",
+            "noSales": "Aucune vente non payée trouvée"
+        },
+        "paid": {
+            "title": "Ventes payées",
+            "noSales": "Aucune vente payée trouvée"
+        },
+        "packed": {
+            "title": "Ventes emballées",
+            "noSales": "Aucune vente emballée trouvée"
+        },
+        "shipped": {
+            "title": "Ventes expédiées",
+            "noSales": "Aucune vente expédiée trouvée"
+        },
+        "delivered": {
+            "title": "Ventes livrées",
+            "noSales": "Aucune vente livrée trouvée"
+        },
+        "cancelled": {
+            "title": "Ventes annulées",
+            "noSales": "Aucune vente annulée trouvée"
+        },
+        "notArrived": {
+            "title": "Ventes non reçues",
+            "noSales": "Aucune vente non reçue trouvée"
+        },
+        "inCart": {
+            "title": "Dans le panier",
+            "noSales": "Aucune vente trouvée dans le panier"
+        },
+        "removeCart": "Retirer du panier",
+        "setAsPacked": "Marquer comme emballé",
+        "setAsShipped": "Marquer comme expédié",
+        "relistItems": "Remettre les articles en vente",
+        "singleOrder": {
+            "shippingStatusChangeSuccess": "Statut modifié avec succès",
+            "shippingStatusChangeError": "Erreur lors du changement de statut",
+            "relistItemsSuccess": "Les articles ont été remis en vente",
+            "relistItemsError": "Erreur lors de la remise en vente des articles",
+            "relistItemsConfirmTitle": "Remettre en vente",
+            "relistItemsConfirmDescription": "Êtes-vous sûr de vouloir remettre en vente les articles suivants ?"
+        },
+        "setAsNotPacked": "Marquer comme non emballé",
+        "setAsNotShipped": "Marquer comme non expédié",
+        "refund": "Rembourser",
+        "refundDialogTitle": "Rembourser la commande",
+        "refundAmount": "Montant du remboursement",
+        "refundMaxAmount": "Montant maximum du remboursement : {amount}",
+        "refundSuccess": "Remboursement effectué avec succès",
+        "refundError": "Erreur lors du remboursement",
+        "invalidRefundAmount": "Veuillez saisir un montant de remboursement valide",
+        "trackingNumber": {
+            "title": "Numéro de suivi",
+            "description": "Entrez le numéro de suivi pour cet envoi. Il sera visible par l'acheteur.",
+            "label": "Numéro de suivi",
+            "add": "Ajouter un numéro de suivi",
+            "update": "Mettre à jour le numéro de suivi",
+            "number": "Numéro de suivi",
+            "updateSuccess": "Numéro de suivi mis à jour avec succès",
+            "updateError": "Erreur lors de la mise à jour du numéro de suivi",
+            "notAvailableYet": "Numéro de suivi pas encore fourni"
+        }
+    }
+}

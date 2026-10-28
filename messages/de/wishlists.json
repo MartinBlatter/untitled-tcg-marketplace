@@ -1,0 +1,87 @@
+{
+    "wishlists": {
+        "title": "Wunschlisten",
+        "description": "Hier kannst du deine Wunschlisten verwalten. Deine Wunschlisten helfen dir, deine Lieblingskarten zu finden. Du kannst auch Wunschlisten mit anderen teilen.",
+        "noWishlists": "Du hast noch keine Wunschlisten erstellt.",
+        "createWishlist": "Wunschliste erstellen",
+        "amountOfWishlists": "Du hast {amount} Wunschlisten",
+        "count": "{count} Karten",
+        "addDialog": {
+            "title": "Neue Wunschliste",
+            "name": "Name",
+            "description": "Beschreibung",
+            "create": "Erstellen",
+            "cancel": "Abbrechen"
+        },
+        "notifications": {
+            "successAdd": "Wunschliste erfolgreich erstellt.",
+            "errorAdd": "Beim Erstellen der Wunschliste ist ein Fehler aufgetreten.",
+            "successUpdate": "Wunschliste erfolgreich geändert.",
+            "errorUpdate": "Beim Ändern der Wunschliste ist ein Fehler aufgetreten.",
+            "successDelete": "Wunschliste erfolgreich gelöscht.",
+            "errorDelete": "Beim Löschen der Wunschliste ist ein Fehler aufgetreten.",
+            "successAddSingleCard": "Karte erfolgreich zur Wunschliste hinzugefügt.",
+            "errorAddSingleCard": "Beim Hinzufügen der Karte zur Wunschliste ist ein Fehler aufgetreten.",
+            "successEditSingleCard": "Karte erfolgreich geändert.",
+            "errorEditSingleCard": "Beim Ändern der Karte ist ein Fehler aufgetreten.",
+            "successAddSingleCardList": "Karten erfolgreich zur Wunschliste hinzugefügt: {addedItems}",
+            "errorAddSingleCardList": "Beim Hinzufügen der Karten zur Wunschliste ist ein Fehler aufgetreten.",
+            "errorAddSingleCardListNotFound": "Die folgenden Karten konnten nicht gefunden werden: {notAddedItems}",
+            "successMassEdit": "{count} Karten erfolgreich geändert.",
+            "errorMassEdit": "Beim ändern der Karten ist ein Fehler aufgetreten.",
+            "successMassDelete": "{count} Karten erfolgreich gelöscht.",
+            "successRename": "Wunschliste wurde erfolgreich umbenannt",
+            "errorRename": "Beim umbenennen ist ein Fehler aufgetreten"
+        },
+        "singleCardDialog": {
+            "title": "Karte zur Wunschliste hinzufügen",
+            "edit": "\"{name}\" bearbeiten",
+            "add": "Hinzufügen",
+            "wishlist": "Wunschliste",
+            "quality": "Min. Zustand",
+            "share": "Link zum Teilen dieser Liste anzeigen"
+        },
+        "singleCardMassDialog": {
+            "title": "Karten zur Wunschliste hinzufügen",
+            "cards": "Karten",
+            "description": "Jede Karte muss in eigener Zeile stehen. Bitte gebe die Kartenanzahl (optional), den Namen, das Kürzel vom Set in Klammern (optional) und die Sammlernummer (optional) an.",
+            "examples": "Hier sind ein paar Beispiele:"
+        },
+        "single": {
+            "noItems": "Diese Wunschliste ist noch leer.",
+            "selectedItems": "{count} Karte(n) ausgewählt",
+            "delete": "Löschen",
+            "massDelete": "Ausgewählte Karten löschen",
+            "massEdit": "Massenbearbeitung",
+            "addItem": "Karte hinzufügen",
+            "addItemList": "Kartenliste hinzufügen",
+            "totalItems": "Insgesamt {count} Karte(n)",
+            "maxPrice": "Max. Preis",
+            "export": "Liste exportieren",
+            "import": "Liste importieren",
+            "preview": "Vorschau",
+            "dismissPreview": "Import verwerfen",
+            "savePreview": "Import speichern"
+        },
+        "importDialog": {
+            "title": "Wünsche aus Datei importieren (CSV)",
+            "exampleDownload": "Beispieldatei herunterladen (CSV)",
+            "description1": "Die Datei muss eine CSV Datei sein und die folgenden Spalten enthalten: uuid, name, setCodes, language, quality, quantity, foil, altered, signed, misprint, graded, price, comment.",
+            "description2": "Entweder das Feld \"uuid\" oder \"name\" jeder Zeile müssen ausgefüllt sein. Alle anderen Spalten sind optional. (Siehe Beispieldatei)",
+            "uuidHint": "Wo findet man die uuid?",
+            "description3": "Nach dem Hochladen der Datei, kannst du noch einmal die einzelnen Karten prüfen, vor du den finalen Import bestätigst.",
+            "errorEmpty": "Fehler: Datei ist leer",
+            "errorInvalidLength": "Fehlende Spalten",
+            "errorRequiredMissing": "Entweder die uuid oder der Name müssen gesetzt sein.",
+            "tab1": "DM Import Format",
+            "tab2": "ManaBox Import Formar",
+            "manaboxDescription1": "Lade die CSV Datei hoch, die ein Export aus der ManaBox Export generiert."
+        },
+        "errorImport": "Fehler beim importieren der Datei",
+        "deleteWishlist": "Diese Wunschliste löschen",
+        "changeName": "Wunschliste umbenennen"
+    },
+    "renameDialog": {
+        "rename": "Wunschliste umbenennen"
+    }
+}

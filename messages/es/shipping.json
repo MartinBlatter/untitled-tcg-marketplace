@@ -1,0 +1,25 @@
+{
+    "shipping": {
+        "title": "Tarifas de envío",
+        "defaultShipping": "Usar tarifas de envío predeterminadas",
+        "customShipping": "Definir tarifas de envío propias",
+        "domestic": "Nacional",
+        "international": "Internacional",
+        "letter": "Carta",
+        "package": "Paquete",
+        "insuredShippingMandatory": "Requiere envío asegurado",
+        "form": {
+            "range": "Rango",
+            "type": "Tipo",
+            "cards": "Cartas",
+            "maxValue": "Valor máximo",
+            "weight": "Peso",
+            "price": "Precio",
+            "tracking": "Seguimiento gratuito",
+            "add": "Añadir variante de envío"
+        },
+        "costs": "Costos de envío",
+        "useCustom": "Usar tarifas de envío personalizadas",
+        "useCustomTooltip": "Asegúrese de definir las tarifas de envío si activa esta opción, de lo contrario sus ventas no tendrán costo de envío."
+    }
+}

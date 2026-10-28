@@ -1,0 +1,22 @@
+{
+    // ESLint was replaced by oxlint, so the prettier-eslint formatter can no
+    // longer run. Matches the per-language override further down this file.
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": false, // required
+    "editor.formatOnPaste": true, // optional
+    "editor.formatOnSave": true, // optional
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "files.autoSave": "onFocusChange", // optional but recommended
+    "vs-code-prettier-eslint.prettierLast": false, // set as "true" to run 'prettier' last not first
+    "i18n-ally.localesPaths": ["messages"],
+    "i18n-ally.sourceLanguage": "english",
+    "diffEditor.codeLens": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "i18n-ally.keystyle": "nested",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "explicit"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "checkout": {
+        "title": "Commander",
+        "empty": "Votre panier est vide",
+        "done": {
+            "title": "Confirmation de commande",
+            "success": "Vos commandes ont été passées avec succès"
+        },
+        "singleOrder": {
+            "title": "Commande",
+            "name": "Nom",
+            "price": "Prix",
+            "subtotal": "Sous-total",
+            "total": "Total :",
+            "deleteOrder": "Supprimer la commande",
+            "shippingChanged": "Mode de livraison mis à jour avec succès",
+            "shippingChangeFailed": "Échec de la mise à jour du mode de livraison",
+            "errorRemovingItem": "Impossible de supprimer l'article du panier",
+            "addToInventory": "Ajouter les articles à mon inventaire (non listés)",
+            "notArrivedConfirmTitle": "Confirmer la non-réception",
+            "notArrivedConfirmDescription": "Êtes-vous sûr de vouloir marquer cette commande comme non reçue ? Cette action ne peut pas être annulée.",
+            "notArrived": "Marquer comme non reçu",
+            "notArrivedTooltip": "Disponible après 14 jours"
+        },
+        "orderSummary": {
+            "title": "Récapitulatif de la commande",
+            "total": "Total",
+            "buy": "Acheter maintenant",
+            "orderSubtotal": "Sous-total commande {order}"
+        },
+        "doneSingleOrder": {
+            "title": "Commande",
+            "orderDate": "Date de commande",
+            "orderStatus": "Statut de la commande",
+            "paymentStatus": "Statut du paiement",
+            "sendExtraPayment": "Envoyer un paiement supplémentaire",
+            "extraPaymentTitle": "Envoyer un paiement supplémentaire",
+            "amount": "Montant",
+            "invalidAmount": "Veuillez saisir un montant valide",
+            "extraPaymentSuccess": "Paiement supplémentaire envoyé avec succès",
+            "extraPaymentError": "Échec de l'envoi du paiement supplémentaire",
+            "shippingStatus": "Statut de l'expédition",
+            "orderStatuses": {
+                "pending": "En attente",
+                "paid": "Payé",
+                "shipped": "Expédié",
+                "delivered": "Livré",
+                "cancelled_by_buyer": "Annulé par l'acheteur",
+                "cancelled_by_seller": "Annulé par le vendeur",
+                "cancelled_by_admin": "Annulé par l'administrateur",
+                "failed": "Échoué",
+                "expired": "Expiré",
+                "new": "Nouveau"
+            },
+            "paymentStatuses": {
+                "pending": "En attente",
+                "paid": "Payé",
+                "failed": "Échoué",
+                "refunded": "Remboursé"
+            },
+            "shippingStatuses": {
+                "pending": "En attente",
+                "shipped": "Expédié",
+                "delivered": "Livré",
+                "cancelled": "Annulé"
+            },
+            "requestCancellation": "Demander une annulation",
+            "requestCancellationMessage": "Motif de l'annulation",
+            "requestCancellationSuccess": "Demande d'annulation soumise avec succès",
+            "requestCancellationError": "Échec de la soumission de la demande d'annulation"
+        }
+    }
+}

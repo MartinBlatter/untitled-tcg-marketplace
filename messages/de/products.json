@@ -1,0 +1,74 @@
+{
+    "products": {
+        "title": "Produkte",
+        "categories": {
+            "single": "Einzelkarten",
+            "singles": "Einzelkarten",
+            "booster": "Booster",
+            "display": "Displays",
+            "sealed": "Sealed Produkte"
+        },
+        "singleCard": {
+            "name": "Name",
+            "set": "Set",
+            "rarity": "Seltenheit",
+            "price": "Preis",
+            "number": "Nummer",
+            "quantity": "Menge",
+            "language": "Sprache",
+            "comment": "Kommentar",
+            "quality": "Zustand",
+            "internalComment": "Interne Notiz",
+            "foil": "Foil",
+            "altered": "Altered",
+            "signed": "Signiert",
+            "graded": "Graded",
+            "misprint": "Misprint",
+            "gradingCompany": "Grading Unternehmen",
+            "grading": "Wertung",
+            "onlyInventory": "Nur zum privaten Inventar hinzufügen"
+        },
+        "details": {
+            "info": "Informationen",
+            "infoTable": {
+                "set": "Edition",
+                "rarity": "Seltenheit",
+                "number": "Nummer",
+                "flavorText": "Flavor-Text",
+                "artist": "Künstler",
+                "text": "Kartentext",
+                "printings": "Andere Versionen",
+                "type": "Kartentyp"
+            },
+            "tabs": {
+                "info": "Informationen",
+                "history": "Historie"
+            },
+            "sell": "Verkaufen",
+            "want": "Zur Wunschliste hinzufügen"
+        },
+        "buylist": {
+            "table": {
+                "country": "Land",
+                "user": "Benutzer",
+                "quality": "Zustand",
+                "language": "Sprache",
+                "price": "Preis",
+                "quantity": "Menge"
+            },
+            "numberOfItems": "{count} Angebote"
+        },
+        "history": {
+            "sales": "Verkaufshistorie",
+            "purchases": "Kaufhistorie",
+            "date": "Datum",
+            "price": "Preis",
+            "quantity": "Menge",
+            "quality": "Zustand",
+            "buyer": "Käufer",
+            "seller": "Verkäufer",
+            "foil": "Foil",
+            "jumpToOrder": "Zur Bestellung"
+        }
+    }
+}

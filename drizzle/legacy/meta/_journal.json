@@ -1,0 +1,48 @@
+{
+    "version": "7",
+    "dialect": "mysql",
+    "entries": [
+        {
+            "idx": 0,
+            "version": "5",
+            "when": 1728942870241,
+            "tag": "0000_productive_quasimodo",
+            "breakpoints": true
+        },
+        {
+            "idx": 1,
+            "version": "5",
+            "when": 1713024850000,
+            "tag": "0001_add_original_item",
+            "breakpoints": true
+        },
+        {
+            "idx": 2,
+            "version": "5",
+            "when": 1713024900000,
+            "tag": "0002_create_help_articles",
+            "breakpoints": true
+        },
+        {
+            "idx": 3,
+            "version": "5",
+            "when": 1713024950000,
+            "tag": "0003_help_articles_related",
+            "breakpoints": true
+        },
+        {
+            "idx": 4,
+            "version": "5",
+            "when": 1713025000000,
+            "tag": "0004_multilingual_help_articles",
+            "breakpoints": true
+        },
+        {
+            "idx": 5,
+            "version": "5",
+            "when": 1713475200000,
+            "tag": "0005_add_buylist_tables",
+            "breakpoints": true
+        }
+    ]
+}

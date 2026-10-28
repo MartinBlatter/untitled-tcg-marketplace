@@ -1,0 +1,16 @@
+{
+    "messages": {
+        "dialog": {
+            "title": "Nachricht an {user} senden",
+            "field": {
+                "title": "Titel",
+                "message": "Nachricht"
+            }
+        },
+        "successSend": "Nachricht wurde versendet",
+        "errorSend": "Fehler beim schicken der Nachricht",
+        "errorNotFound": "Keine Nachrichten",
+        "title": "Nachrichten",
+        "selectMessage": "Wähle eine Unterhaltung aus, um die Nachrichten anzuzeigen"
+    }
+}

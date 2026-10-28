@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 400" role="img" aria-label="Sealed product">
+  <g fill="none" stroke="#8893A3" stroke-width="3" stroke-linejoin="round">
+    <rect x="56" y="80" width="152" height="242" rx="8" fill="#8B6FC7" fill-opacity="0.08"/>
+    <rect x="118" y="80" width="28" height="242" fill="#8B6FC7" fill-opacity="0.22"/>
+    <rect x="56" y="188" width="152" height="28" fill="#8B6FC7" fill-opacity="0.22"/>
+    <path d="M74 104 L100 104 M74 122 L88 122" stroke-linecap="round"/>
+  </g>
+</svg>

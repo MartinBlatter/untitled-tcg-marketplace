@@ -1,0 +1,46 @@
+{
+    "purchases": {
+        "title": "Bestellungen",
+        "purchase": "Bestellung",
+        "navbar": {
+            "unpaid": "Unbezahlt",
+            "paid": "Bezahlt",
+            "shipped": "Versandt",
+            "delivered": "Geliefert",
+            "cancelled": "Storniert",
+            "notArrived": "Nicht angekommen"
+        },
+        "unpaid": {
+            "title": "Unbezahlte Bestellungen",
+            "noPurchases": "Keine unbezahlten Bestellungen gefunden",
+            "total": "Gesamtsumme"
+        },
+        "paid": {
+            "title": "Bezahlte Bestellungen",
+            "noPurchases": "Keine bezahlten Bestellungen gefunden"
+        },
+        "shipped": {
+            "title": "Versandte Bestellungen",
+            "noPurchases": "Keine versandten Bestellungen gefunden"
+        },
+        "delivered": {
+            "title": "Gelieferte Bestellungen",
+            "noPurchases": "Keine gelieferten Bestellungen gefunden"
+        },
+        "cancelled": {
+            "title": "Stornierte Bestellungen",
+            "noPurchases": "Keine stornierten Bestellungen gefunden"
+        },
+        "notArrived": {
+            "title": "Nicht angekommene Bestellungen",
+            "noPurchases": "Keine nicht angekommenen Bestellungen gefunden"
+        },
+        "total": "Gesamtsumme",
+        "pay": "Bezahlen",
+        "successPayment": "Bestellung bezahlt",
+        "errorPayment": "Fehler beim Bezahlen",
+        "successAllPayment": "Alle Bestellungen wurden bezahlt",
+        "payAll": "Alle bezahlen",
+        "successPartialPayment": "Einige oder alle Bestellungen konnten nicht bezahlt werden"
+    }
+}

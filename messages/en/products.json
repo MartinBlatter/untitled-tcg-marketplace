@@ -1,0 +1,77 @@
+{
+    "products": {
+        "title": "Products",
+        "categories": {
+            "single": "Single cards",
+            "singles": "Single cards",
+            "booster": "Boosters",
+            "display": "Displays",
+            "sealed": "Sealed products"
+        },
+        "singleCard": {
+            "name": "Name",
+            "set": "Set",
+            "rarity": "Rarity",
+            "price": "Price",
+            "number": "Number",
+            "quantity": "Quantity",
+            "language": "Language",
+            "comment": "Comment",
+            "quality": "Quality",
+            "internalComment": "Private Comment",
+            "foil": "Foil",
+            "altered": "Altered",
+            "signed": "Signed",
+            "graded": "Graded",
+            "misprint": "Misprint",
+            "gradingCompany": "Grading Company",
+            "grading": "Grading",
+            "onlyInventory": "Only add to private inventory"
+        },
+        "details": {
+            "info": "Info",
+            "infoTable": {
+                "set": "Set",
+                "rarity": "Rarity",
+                "number": "Number",
+                "flavorText": "Flavourtext",
+                "artist": "Artist",
+                "text": "Cardtext",
+                "printings": "Other Printings",
+                "type": "Cardtype"
+            },
+            "tabs": {
+                "info": "Info",
+                "history": "History"
+            },
+            "sell": "Sell",
+            "want": "Add to wishlist"
+        },
+        "buylist": {
+            "table": {
+                "country": "Country",
+                "user": "User",
+                "quality": "Quality",
+                "language": "Language",
+                "price": "Price",
+                "quantity": "Quantity"
+            },
+            "numberOfItems": "{count} total offers"
+        },
+        "history": {
+            "sales": "Sales History",
+            "purchases": "Purchase History",
+            "date": "Date",
+            "price": "Price",
+            "quantity": "Quantity",
+            "quality": "Quality",
+            "buyer": "Buyer",
+            "seller": "Seller",
+            "foil": "Foil",
+            "loginRequired": "Please login to view your purchase and sales history for this card",
+            "noSales": "You have no sales history for this card",
+            "noPurchases": "You have no purchase history for this card",
+            "jumpToOrder": "Jump to order"
+        }
+    }
+}

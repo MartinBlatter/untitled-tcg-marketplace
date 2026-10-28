@@ -1,0 +1,25 @@
+{
+    "shipping": {
+        "title": "Frais d'expédition",
+        "defaultShipping": "Utiliser les tarifs d'expédition par défaut",
+        "customShipping": "Définir ses propres tarifs d'expédition",
+        "domestic": "National",
+        "international": "International",
+        "letter": "Lettre",
+        "package": "Colis",
+        "insuredShippingMandatory": "Expédition assurée obligatoire",
+        "form": {
+            "range": "Plage",
+            "type": "Type",
+            "cards": "Cartes",
+            "maxValue": "Valeur maximale",
+            "weight": "Poids",
+            "price": "Prix",
+            "tracking": "Suivi gratuit",
+            "add": "Ajouter une variante d'expédition"
+        },
+        "costs": "Frais d'expédition",
+        "useCustom": "Utiliser des frais de port personnalisés",
+        "useCustomTooltip": "Assurez-vous de définir les frais de port si vous activez cette option, sinon vos ventes n'auront pas de frais de port."
+    }
+}

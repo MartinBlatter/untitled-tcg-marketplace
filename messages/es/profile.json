@@ -1,0 +1,22 @@
+{
+    "profile": {
+        "title": "Profile",
+        "form": {
+            "userName": "Username",
+            "userNameLengthError": "Benutzername muss mindestens 3 Zeichen lang sein",
+            "userNameExistsError": "Benutzername existiert bereits",
+            "email": "Email",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "company": "Company",
+            "address": "Address",
+            "save": "Save",
+            "add": "Add"
+        },
+        "profileHint": "Please fill out your profile before getting started.",
+        "successUpdate": "Your profile has been updated.",
+        "errorUpdate": "Error: Your profile could not be updated.",
+        "additionalShippingAddress": "Additional shipping address",
+        "deleteAddress": "Delete address"
+    }
+}

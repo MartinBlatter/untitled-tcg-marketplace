@@ -1,0 +1,45 @@
+{
+    "statistics": {
+        "title": "Statistiken",
+        "salesTitle": "Verkaufsstatistiken",
+        "purchasesTitle": "Bestellungsstatistiken",
+        "totalSales": "Gesamtverkäufe",
+        "totalPurchases": "Gesamtbestellungen",
+        "salesVolume": "Verkaufsvolumen",
+        "purchasesVolume": "Bestellungsvolumen",
+        "topSellingProducts": "Meistverkaufte Produkte",
+        "topPurchasedProducts": "Meistgekaufte Produkte",
+        "monthlySales": "Monatliche Verkäufe",
+        "monthlyPurchases": "Monatliche Bestellungen",
+        "dateRange": {
+            "last7Days": "Letzte 7 Tage",
+            "last30Days": "Letzte 30 Tage",
+            "last90Days": "Letzte 90 Tage",
+            "lastYear": "Letztes Jahr",
+            "custom": "Benutzerdefiniert",
+            "label": "Zeitraum",
+            "startDate": "Startdatum",
+            "endDate": "Enddatum"
+        },
+        "metrics": {
+            "orders": "Bestellungen",
+            "revenue": "Umsatz",
+            "avgOrderValue": "Durchschnittlicher Bestellwert",
+            "items": "Artikel"
+        },
+        "filters": {
+            "title": "Filter",
+            "apply": "Filter anwenden",
+            "reset": "Zurücksetzen"
+        },
+        "noData": "Keine Daten für den ausgewählten Zeitraum verfügbar",
+        "statCard": {
+            "title": "Statistiktitel",
+            "value": "Statistikwert"
+        },
+        "totalRevenue": "Gesamtumsatz",
+        "month": "Monat",
+        "revenue": "Umsatz",
+        "amount": "Betrag"
+    }
+}

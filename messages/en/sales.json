@@ -1,0 +1,108 @@
+{
+    "sales": {
+        "title": "Sales",
+        "sale": "Sale",
+        "saleDate": "Sale Date",
+        "saleStatus": "Sale Status",
+        "paymentStatus": "Payment Status",
+        "shippingStatus": "Shipping Status",
+        "total": "Total",
+        "saleStatuses": {
+            "unpaid": "Unpaid",
+            "paid": "Paid",
+            "shipped": "Shipped",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled",
+            "notArrived": "Not Arrived",
+            "packed": "Packed",
+            "inCart": "In Cart"
+        },
+        "paymentStatuses": {
+            "unpaid": "Unpaid",
+            "paid": "Paid"
+        },
+        "shippingStatuses": {
+            "unshipped": "Unshipped",
+            "shipped": "Shipped",
+            "delivered": "Delivered",
+            "notArrived": "Not Arrived"
+        },
+        "navbar": {
+            "unpaid": "Unpaid",
+            "paid": "Paid",
+            "shipped": "Shipped",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled",
+            "notArrived": "Not Arrived",
+            "packed": "Packed",
+            "inCart": "In Cart"
+        },
+        "unpaid": {
+            "title": "Unpaid Sales",
+            "noSales": "No unpaid sales found"
+        },
+        "paid": {
+            "title": "Paid Sales",
+            "noSales": "No paid sales found"
+        },
+        "packed": {
+            "title": "Packed Sales",
+            "noSales": "No packed sales found"
+        },
+        "shipped": {
+            "title": "Shipped Sales",
+            "noSales": "No shipped sales found"
+        },
+        "delivered": {
+            "title": "Delivered Sales",
+            "noSales": "No delivered sales found"
+        },
+        "cancelled": {
+            "title": "Cancelled Sales",
+            "noSales": "No cancelled sales found"
+        },
+        "notArrived": {
+            "title": "Not Arrived Sales",
+            "noSales": "No not arrived sales found"
+        },
+        "inCart": {
+            "title": "In Cart",
+            "noSales": "No sales found in cart",
+            "item": "articles",
+            "removeCartSuccess": "Cart successfully removed",
+            "removeCartError": "Error removing cart"
+        },
+        "removeCart": "Remove from Shopping Cart",
+        "setAsPacked": "Set to packed",
+        "setAsShipped": "Set to shipped",
+        "relistItems": "Put Items Up For Sale Again",
+        "singleOrder": {
+            "shippingStatusChangeSuccess": "Successfully changed status",
+            "shippingStatusChangeError": "Error setting the status",
+            "relistItemsSuccess": "Items have been relisted for sale",
+            "relistItemsError": "Error relisting the items",
+            "relistItemsConfirmTitle": "Relist Items",
+            "relistItemsConfirmDescription": "Are you sure you want to relist the following items?"
+        },
+        "setAsNotPacked": "Set back to not packed",
+        "setAsNotShipped": "Set back to not shipped",
+        "refund": "Refund",
+        "refundDialogTitle": "Refund Order",
+        "refundAmount": "Refund Amount",
+        "refundMaxAmount": "Maximum refund amount: {amount}",
+        "refundSuccess": "Refund was successful",
+        "refundError": "Error processing refund",
+        "invalidRefundAmount": "Please enter a valid refund amount",
+        "trackingNumber": {
+            "title": "Tracking Number",
+            "description": "Enter the tracking number for this shipment. This will be visible to the buyer.",
+            "label": "Tracking Number",
+            "add": "Add Tracking Number",
+            "update": "Update Tracking Number",
+            "number": "Tracking Number",
+            "updateSuccess": "Tracking number updated successfully",
+            "updateError": "Error updating tracking number",
+            "notAvailableYet": "Tracking number not yet provided"
+        }
+    }
+}

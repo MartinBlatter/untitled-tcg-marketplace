@@ -1,0 +1,87 @@
+{
+    "wishlists": {
+        "title": "Wishlists",
+        "description": "Here you can manage your wishlists. Your wishlists help you find your favorite cards. You can also share wishlists with others.",
+        "noWishlists": "You have no wishlists yet.",
+        "createWishlist": "Create wishlist",
+        "amountOfWishlists": "You have {amount} wishlists",
+        "count": "{count} cards",
+        "addDialog": {
+            "title": "New wishlist",
+            "name": "Name",
+            "description": "Description",
+            "create": "Create",
+            "cancel": "Cancel"
+        },
+        "notifications": {
+            "successAdd": "Wishlist successfully created.",
+            "errorAdd": "An error occurred while creating the wishlist.",
+            "successUpdate": "Wishlist successfully updated.",
+            "errorUpdate": "An error occurred while updating the wishlist.",
+            "successDelete": "Wishlist successfully deleted.",
+            "errorDelete": "An error occurred while deleting the wishlist.",
+            "successAddSingleCard": "Card successfully added to wishlist.",
+            "errorAddSingleCard": "An error occurred while adding the card to the wishlist.",
+            "successEditSingleCard": "Card successfully updated.",
+            "errorEditSingleCard": "An error occurred while updating the card.",
+            "successAddSingleCardList": "Cards successfully added to wishlist:\n\n{addedItems}",
+            "errorAddSingleCardList": "An error occurred while adding the cards to the wishlist.",
+            "errorAddSingleCardListNotFound": "The following cards could not be found:\n\n{notAddedItems}",
+            "successMassEdit": "{count} cards successfully updated.",
+            "errorMassEdit": "An error occurred while updating the cards.",
+            "successMassDelete": "{count} cards successfully deleted.",
+            "successRename": "Wishlist was successfully renamed",
+            "errorRename": "Renaming failed"
+        },
+        "singleCardDialog": {
+            "title": "Add card to wishlist",
+            "edit": "Edit \"{name}\"",
+            "add": "Add",
+            "wishlist": "Wishlist",
+            "quality": "Min. quality",
+            "share": "Show link to share this list"
+        },
+        "singleCardMassDialog": {
+            "title": "Add cards to wishlist",
+            "cards": "Cards",
+            "description": "Each card must be in its own line. Please enter the number of cards (optional), the name, the set code in brackets (optional) and the collector number (optional).",
+            "examples": "Here are a few examples:"
+        },
+        "single": {
+            "noItems": "This wishlist is still empty.",
+            "selectedItems": "{count} cards selected",
+            "delete": "Delete",
+            "massDelete": "Delete selected Cards",
+            "massEdit": "Mass edit",
+            "addItem": "Add card",
+            "addItemList": "Add a list of cards",
+            "totalItems": "Total {count} cards",
+            "maxPrice": "Max. price",
+            "export": "Export List (CSV)",
+            "import": "Import List (CSV)",
+            "preview": "Preview",
+            "dismissPreview": "Dismiss Import",
+            "savePreview": "Save Import"
+        },
+        "importDialog": {
+            "title": "Import Wants from file",
+            "exampleDownload": "Download example file",
+            "description1": "The file must be a CSV file containing the following columns: uuid, name, setCodes, language, quality, quantity, foil, altered, signed, misprint, graded, price, comment.",
+            "description2": "Either the field \"uuid\" or \"name\" are required for each line. All other fields are optional. (See example file)",
+            "uuidHint": "Where to find the uuid",
+            "description3": "After the upload, you will get a chance to preview the cards before finalizing the import.",
+            "errorEmpty": "Error: File is empty",
+            "errorInvalidLength": "Missing columns",
+            "errorRequiredMissing": "Either uuid or name are required",
+            "tab1": "DM Import Format",
+            "tab2": "ManaBox Import Format",
+            "manaboxDescription1": "Upload the CSV file that an export from the ManaBox app gerenates."
+        },
+        "errorImport": "Error importing the file",
+        "deleteWishlist": "Delete this wishlist",
+        "changeName": "Change the name of this wishlist"
+    },
+    "renameDialog": {
+        "rename": "Rename wishlist"
+    }
+}

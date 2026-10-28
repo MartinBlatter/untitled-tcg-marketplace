@@ -1,0 +1,92 @@
+{
+    "checkout": {
+        "title": "Zur Kasse",
+        "empty": "Dein Warenkorb ist leer",
+        "done": {
+            "title": "Bestellbestätigung",
+            "noPurchases": "Keine neuen Einkäufe. Schau mal hier:",
+            "success": "Ihre Bestellungen wurden erfolgreich aufgegeben"
+        },
+        "singleOrder": {
+            "title": "Bestellung",
+            "name": "Name",
+            "price": "Preis",
+            "subtotal": "Zwischensumme",
+            "total": "Gesamt:",
+            "deleteOrder": "Bestellung löschen",
+            "userInventory": "Mehr von diesem Verkäufer",
+            "userInventoryWishlist": "Suche nach Karten meiner Wunschlisten",
+            "seller": "Verkäufer",
+            "address": "Lieferadresse",
+            "shipping": "Versandmethode",
+            "packaging": "+ zusätzliche {packagingCost} für Verpackung",
+            "changeShipping": "Diese Versandmethode wählen",
+            "shippingChanged": "Versandart erfolgreich aktualisiert",
+            "shippingChangeFailed": "Versandart konnte nicht aktualisiert werden",
+            "errorRemovingItem": "Artikel konnte nicht aus dem Warenkorb entfernt werden",
+            "buyer": "Käufer",
+            "confirmArrival": "Ankunft bestätigen",
+            "notArrived": "Als nicht angeommen markieren",
+            "addToInventory": "Artikel zum Inventar hinzufügen",
+            "notArrivedTooltip": "Verfügbar nach 14 Tagen",
+            "notArrivedConfirmTitle": "Als nicht angekommen markieren",
+            "notArrivedConfirmDescription": "Sind Sie sicher, dass Sie diese Bestellung als nicht angekommen markieren möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+            "addedToInventory": "Artikel erfolgreich zum Inventar hinzugefügt",
+            "selectItemsToAdd": "Wähle Artikel, die zum Inventar hinzugefügt werden sollen",
+            "addAs": "Füge ausgewählte Artikel hinzu als",
+            "listed": "Gelistet",
+            "unlisted": "Nicht gelistet",
+            "custom": "Individuell pro Artikel"
+        },
+        "orderSummary": {
+            "title": "Bestellübersicht",
+            "total": "Gesamt",
+            "buy": "Jetzt kaufen",
+            "orderSubtotal": "Zwischensumme Bestellung {order}",
+            "error": "Bestellung konnte nicht platziert werden",
+            "itemNotAvailable": "Ein oder mehrere Produkte im Warenkorb sind nicht mehr verfügbar. Der Warenkorb wurde aktualisiert."
+        },
+        "doneSingleOrder": {
+            "title": "Bestellung",
+            "orderDate": "Bestelldatum",
+            "orderStatus": "Bestellstatus",
+            "paymentStatus": "Zahlungsstatus",
+            "sendExtraPayment": "Zusätzliche Zahlung senden",
+            "extraPaymentTitle": "Zusätzliche Zahlung senden",
+            "amount": "Betrag",
+            "invalidAmount": "Bitte geben Sie einen gültigen Betrag ein",
+            "extraPaymentSuccess": "Zusätzliche Zahlung erfolgreich gesendet",
+            "extraPaymentError": "Fehler beim Senden der zusätzlichen Zahlung",
+            "paymentStatuses": {
+                "pending": "Ausstehend",
+                "paid": "Bezahlt",
+                "failed": "Fehlgeschlagen",
+                "refunded": "Erstattet"
+            },
+            "shippingStatuses": {
+                "pending": "Ausstehend",
+                "packed": "Verpackt",
+                "shipped": "Versandt",
+                "delivered": "Geliefert",
+                "cancelled": "Storniert",
+                "not_arrived": "Nicht angekommen"
+            },
+            "requestCancellation": "Stornierung beantragen",
+            "requestCancellationMessage": "Grund für die Stornierung",
+            "requestCancellationSuccess": "Stornierungsantrag erfolgreich eingereicht",
+            "requestCancellationError": "Stornierungsantrag konnte nicht eingereicht werden",
+            "cancellationRequested": "Stornierung beantragt",
+            "cancellationAccepted": "Stornierung akzeptiert",
+            "acceptCancellation": "Stornierung akzeptieren",
+            "cancelCancellation": "Stornierungsanfrage zurückziehen",
+            "cancelCancellationSuccess": "Stornierungsanfrage erfolgreich zurückgezogen",
+            "cancelCancellationError": "Fehler beim zurückziehen der Stornierungsanfrage",
+            "acceptCancellationSuccess": "Stornierungsanfrage wurde angenommen",
+            "acceptCancellationError": "Fehler beim akzeptieren der Stornierung",
+            "arrivedSuccess": "Erfolgreich als angekommen markiert",
+            "arrivedError": "Fehler beim markieren",
+            "notArrivedSuccess": "Erfolgreich als nicht angekommen markiert",
+            "notArrivedError": "Fehler beim markieren"
+        }
+    }
+}

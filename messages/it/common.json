@@ -1,0 +1,150 @@
+{
+    "navigation": {
+        "home": "Untitled TCG Marketplace"
+    },
+    "localeStrings": {
+        "de": "Tedesco",
+        "en": "Inglese",
+        "es": "Spagnolo",
+        "fr": "Francese",
+        "it": "Italiano",
+        "jp": "Giapponese",
+        "kr": "Coreano",
+        "ru": "Russo",
+        "zhs": "Cinese",
+        "zht": "Cinese (Tradizionale)",
+        "pt": "Portoghese",
+        "other": "Altro"
+    },
+    "qualityStrings": {
+        "PO": "Scadente",
+        "PL": "Giocato",
+        "LP": "Leggermente Giocato",
+        "GD": "Buono",
+        "EX": "Eccellente",
+        "NM": "Quasi Perfetto",
+        "MI": "Perfetto"
+    },
+    "appBar": {
+        "searchField": {
+            "placeholder": "Cerca su Untitled TCG Marketplace",
+            "noResults": "Nessun risultato trovato",
+            "moreResults": "Mostra tutti i risultati ({count})",
+            "detailedSearch": "Ricerca dettagliata"
+        },
+        "userMenu": {
+            "darkmode": "Modalità scura",
+            "email": "Email",
+            "password": "Password",
+            "signout": "Esci",
+            "signin": "Accedi",
+            "userText": "Accesso effettuato come {user}",
+            "notLoggedIn": "Non hai effettuato l'accesso",
+            "profile": "Profilo",
+            "businessProfile": "Profilo aziendale",
+            "messages": "Messaggi",
+            "register": "Registrati",
+            "shoppingCartempty": "Il tuo carrello è vuoto",
+            "settings": "Impostazioni utente",
+            "shoppingCart": {
+                "seller": "Venditore",
+                "total": "Totale: ",
+                "shipping": "Spedizione e imballaggio",
+                "checkout": "Procedi all'acquisto"
+            }
+        },
+        "localeSwitcher": {
+            "flag": "bandiera"
+        }
+    },
+    "sidenav": {
+        "home": "Home",
+        "products": "Prodotti",
+        "inventory": "Inventario",
+        "detailedSearch": "Ricerca dettagliata",
+        "wishlists": "Liste dei desideri",
+        "messages": "Messaggi",
+        "shipping": "Costi di spedizione",
+        "buylist": "Lista d'acquisto",
+        "purchases": "Acquisti",
+        "unpaid": "Non pagato",
+        "paid": "Pagato",
+        "shipped": "Spedito",
+        "delivered": "Consegnato",
+        "cancelled": "Annullato",
+        "sales": "Vendite",
+        "inShoppingCart": "Nel carrello",
+        "packed": "Imballato",
+        "notArrived": "Non arrivato",
+        "pickingLists": "Liste di prelievo",
+        "statistics": "Statistiche",
+        "salesStats": "Statistiche vendite",
+        "purchasesStats": "Statistiche acquisti"
+    },
+    "errors": {
+        "notLoggedIn": "Non hai effettuato l'accesso. Verrai reindirizzato alla pagina di login...",
+        "required": "Obbligatorio",
+        "optional": "Opzionale"
+    },
+    "imageHints": {
+        "textured": "Textured Foil",
+        "etched": "Etched Foil",
+        "surgefoil": "Surge Foil",
+        "confettifoil": "Confetti Foil",
+        "datestamped": "Date Stamped",
+        "doubleexposure": "Double Exposure",
+        "doublerainbow": "Double Rainbow",
+        "embossed": "Embossed",
+        "fracturefoil": "Fracture Foil",
+        "galaxyfoil": "Galaxy Foil",
+        "gilded": "Gilded",
+        "glossy": "Glossy",
+        "halofoil": "Halo Foil",
+        "invisibleink": "Invisible Ink",
+        "magnified": "Magnified",
+        "manafoil": "Mana Foil",
+        "oilslick": "Oil Slick",
+        "rainbowfoil": "Rainbow Foil",
+        "raisedfoil": "Raised Foil",
+        "ripplefoil": "Ripple Foil",
+        "serialized": "Serialized",
+        "silverfoil": "Silver Foil",
+        "stamped": "Stamped",
+        "stepandcompleat": "Step and Compleat"
+    },
+    "pagination": {
+        "all": "Tutti",
+        "sixty": "60",
+        "onehundredtwenty": "120",
+        "twohundredfourty": "240"
+    },
+    "required": "Pflichtfeld",
+    "optional": "Optional",
+    "filters": {
+        "title": "Filtri",
+        "name": "Nome",
+        "reset": "Ripristina",
+        "apply": "Applica",
+        "rarity": "Rarità",
+        "type": "Tipo",
+        "set": "Edizione",
+        "country": "Paese",
+        "quality": "Qualità",
+        "language": "Lingua",
+        "price": "Prezzo massimo",
+        "comment": "Commento",
+        "internal-comment": "Commento privato",
+        "minPrice": "Prezzo min.",
+        "maxPrice": "Prezzo max.",
+        "quantity": "Quantità",
+        "filter": "Applica filtri",
+        "createdAtStart": "Creato da",
+        "createdAtEnd": "Creato fino a",
+        "sellerName": "Nome del venditore",
+        "itemName": "Nome prodotto",
+        "buyerName": "Nome dell'acquirente",
+        "orderId": "Numero d'ordine"
+    },
+    "confirm": "Conferma",
+    "submit": "Invia"
+}

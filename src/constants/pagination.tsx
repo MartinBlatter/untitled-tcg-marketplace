@@ -1,0 +1,1 @@
+export const ORDER_TABLE_ROWS_PER_PAGE = 20;

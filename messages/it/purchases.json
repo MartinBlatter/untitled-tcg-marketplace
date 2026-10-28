@@ -1,0 +1,38 @@
+{
+    "purchases": {
+        "title": "Acquisti",
+        "purchase": "Ordine",
+        "navbar": {
+            "unpaid": "Non pagato",
+            "paid": "Pagato",
+            "shipped": "Spedito",
+            "delivered": "Consegnato",
+            "cancelled": "Annullato",
+            "notArrived": "Non arrivato"
+        },
+        "unpaid": {
+            "title": "Acquisti non pagati",
+            "noPurchases": "Nessun acquisto non pagato trovato"
+        },
+        "paid": {
+            "title": "Acquisti pagati",
+            "noPurchases": "Nessun acquisto pagato trovato"
+        },
+        "shipped": {
+            "title": "Ordini spediti",
+            "noPurchases": "Nessun ordine spedito trovato"
+        },
+        "delivered": {
+            "title": "Ordini consegnati",
+            "noPurchases": "Nessun ordine consegnato trovato"
+        },
+        "cancelled": {
+            "title": "Ordini annullati",
+            "noPurchases": "Nessun ordine annullato trovato"
+        },
+        "notArrived": {
+            "title": "Ordini non arrivati",
+            "noPurchases": "Nessun ordine non arrivato trovato"
+        }
+    }
+}

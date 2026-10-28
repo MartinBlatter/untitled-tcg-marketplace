@@ -1,0 +1,46 @@
+{
+    "purchases": {
+        "title": "Purchases",
+        "purchase": "Order",
+        "navbar": {
+            "unpaid": "Unpaid",
+            "paid": "Paid",
+            "shipped": "Shipped",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled",
+            "notArrived": "Not Arrived"
+        },
+        "unpaid": {
+            "title": "Unpaid Purchases",
+            "noPurchases": "No unpaid purchases",
+            "total": "Total"
+        },
+        "paid": {
+            "title": "Paid Purchases",
+            "noPurchases": "No paid purchases"
+        },
+        "shipped": {
+            "title": "Shipped Orders",
+            "noPurchases": "No shipped orders found"
+        },
+        "delivered": {
+            "title": "Delivered Orders",
+            "noPurchases": "No delivered orders found"
+        },
+        "cancelled": {
+            "title": "Cancelled Orders",
+            "noPurchases": "No cancelled orders found"
+        },
+        "notArrived": {
+            "title": "Not Arrived Orders",
+            "noPurchases": "No not arrived orders found"
+        },
+        "total": "Total",
+        "pay": "Pay",
+        "successPayment": "Purchase was paid",
+        "errorPayment": "Error paying",
+        "successAllPayment": "All purchases were paid",
+        "payAll": "Pay all",
+        "successPartialPayment": "Some or all purchases could not be payed"
+    }
+}

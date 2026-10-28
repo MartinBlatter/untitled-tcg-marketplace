@@ -1,0 +1,71 @@
+{
+    "helpCenter": {
+        "title": "Centre d'Aide",
+        "subtitle": "Trouvez des réponses à vos questions sur l'utilisation de notre plateforme",
+        "searchPlaceholder": "Rechercher des articles d'aide...",
+        "categories": "Catégories",
+        "activeFilters": "Filtres actifs",
+        "noResultsFound": "Aucun article trouvé. Essayez d'ajuster votre recherche ou vos filtres.",
+        "lastUpdated": "Dernière mise à jour",
+        "relatedTopics": "Sujets connexes",
+        "backToHelpCenter": "Retour au Centre d'Aide",
+        "wasThisHelpful": "Cet article vous a-t-il été utile ?",
+        "categoryLabels": {
+            "inventory": "Inventaire",
+            "statistics": "Statistiques",
+            "shipping": "Expédition",
+            "wishlists": "Listes de souhaits",
+            "profile": "Profil",
+            "purchases": "Achats",
+            "sales": "Ventes",
+            "messages": "Messages",
+            "checkout": "Paiement"
+        },
+        "article": {
+            "title": "Centre d'Aide",
+            "backToHelpCenter": "Retour au Centre d'Aide",
+            "languageFallbackMessage": "Cet article n'est pas disponible en {requested}. Affichage de la version en {available}.",
+            "lastUpdated": "Dernière mise à jour",
+            "relatedTopics": "Sujets connexes",
+            "relatedArticles": "Articles liés",
+            "availableIn": "Disponible en {language}",
+            "wasThisHelpful": "Cet article vous a-t-il été utile ?",
+            "categoryLabels": {
+                "inventory": "Inventaire",
+                "statistics": "Statistiques",
+                "shipping": "Expédition",
+                "wishlists": "Listes de souhaits",
+                "profile": "Profil",
+                "purchases": "Achats",
+                "sales": "Ventes",
+                "messages": "Messages",
+                "checkout": "Paiement"
+            },
+            "tags": {
+                "beginners": "Pour débutants",
+                "advanced": "Avancé",
+                "shipping": "Expédition",
+                "payment": "Paiement",
+                "returns": "Retours",
+                "account": "Compte",
+                "security": "Sécurité",
+                "orders": "Commandes",
+                "selling": "Vente",
+                "buying": "Achat",
+                "inventory": "Inventaire",
+                "management": "Gestion",
+                "cards": "Cartes",
+                "sales": "Ventes",
+                "statistics": "Statistiques",
+                "data": "Données",
+                "packaging": "Emballage",
+                "international": "International",
+                "profile": "Profil",
+                "settings": "Paramètres",
+                "wishlist": "Liste de souhaits",
+                "collecting": "Collection",
+                "wants": "Recherches"
+            }
+        }
+    }
+}

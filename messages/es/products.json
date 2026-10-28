@@ -1,0 +1,48 @@
+{
+    "products": {
+        "title": "Products",
+        "categories": {
+            "singles": "Single cards",
+            "boosters": "Boosters",
+            "displays": "Displays",
+            "sealed": "Sealed products"
+        },
+        "singleCard": {
+            "name": "Name",
+            "set": "Set",
+            "rarity": "Rarity",
+            "price": "Price",
+            "number": "Number"
+        },
+        "details": {
+            "info": "Info",
+            "infoTable": {
+                "set": "Set",
+                "rarity": "Rarity",
+                "number": "Number",
+                "flavorText": "Flavourtext",
+                "artist": "Artist",
+                "text": "Cardtext",
+                "printings": "Other Printings",
+                "type": "Cardtype"
+            },
+            "tabs": {
+                "info": "Información",
+                "history": "Historial"
+            },
+            "sell": "Vender",
+            "want": "Añadir a lista de deseos"
+        },
+        "history": {
+            "sales": "Historial de ventas",
+            "purchases": "Historial de compras",
+            "date": "Fecha",
+            "price": "Precio",
+            "quantity": "Cantidad",
+            "quality": "Calidad",
+            "buyer": "Comprador",
+            "seller": "Vendedor",
+            "foil": "Foil"
+        }
+    }
+}

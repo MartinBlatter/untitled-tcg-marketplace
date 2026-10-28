@@ -1,0 +1,349 @@
+{
+    "navigation": {
+        "home": "Untitled TCG Marketplace"
+    },
+    "localeStrings": {
+        "de": "German",
+        "en": "English",
+        "es": "Spanish",
+        "fr": "French",
+        "it": "Italian",
+        "jp": "Japanese",
+        "kr": "Korean",
+        "ru": "Russian",
+        "zhs": "Chinese",
+        "zht": "Chinese (Traditional)",
+        "pt": "Portuguese",
+        "other": "Other"
+    },
+    "qualityStrings": {
+        "PO": "Poor",
+        "PL": "Played",
+        "LP": "Lightly Played",
+        "GD": "Good",
+        "EX": "Excellent",
+        "NM": "Near Mint",
+        "MI": "Mint"
+    },
+    "appBar": {
+        "searchField": {
+            "placeholder": "Search on Untitled TCG Marketplace",
+            "noResults": "No results founds",
+            "moreResults": "Show all results ({count})",
+            "detailedSearch": "Detailed search"
+        },
+        "userMenu": {
+            "darkmode": "Dark mode",
+            "email": "Email",
+            "password": "Password",
+            "signout": "Log out",
+            "signin": "Log in",
+            "userText": "Logged in as {user}",
+            "notLoggedIn": "You are not logged in",
+            "profile": "Profile",
+            "businessProfile": "Business Profile",
+            "messages": "Messages",
+            "register": "Register",
+            "shoppingCartempty": "Your Cart is empty",
+            "settings": "User Settings",
+            "shoppingCart": {
+                "seller": "Seller",
+                "total": "Total: ",
+                "checkout": "Checkout",
+                "shipping": "Shipping & Packaging"
+            }
+        },
+        "localeSwitcher": {
+            "flag": "flag"
+        }
+    },
+    "sidenav": {
+        "home": "Home",
+        "products": "Products",
+        "inventory": "Inventory",
+        "detailedSearch": "Detailed search",
+        "wishlists": "Wishlists",
+        "messages": "Messages",
+        "shipping": "Shipping rates",
+        "buylists": "Buylists",
+        "purchases": "Purchases",
+        "unpaid": "Unpaid",
+        "paid": "Paid",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled",
+        "sales": "Sales",
+        "inShoppingCart": "In Shopping Cart",
+        "packed": "Packed",
+        "notArrived": "Not Arrived",
+        "pickingLists": "Picking Lists",
+        "statistics": "Statistics",
+        "salesStats": "Sales Statistics",
+        "purchasesStats": "Purchases Statistics"
+    },
+    "errors": {
+        "notLoggedIn": "You are not logged in. You will now be redirected to the login page...",
+        "required": "Required",
+        "optional": "Optional",
+        "insufficientFunds": "Insufficient funds",
+        "unauthorized": "Unauthorized",
+        "internalServerError": "An error occurred. Please try again later."
+    },
+    "imageHints": {
+        "textured": "Textured Foil",
+        "etched": "Etched Foil",
+        "surgefoil": "Surge Foil",
+        "confettifoil": "Confetti Foil",
+        "datestamped": "Date Stamped",
+        "doubleexposure": "Double Exposure",
+        "doublerainbow": "Double Rainbow",
+        "embossed": "Embossed",
+        "fracturefoil": "Fracture Foil",
+        "galaxyfoil": "Galaxy Foil",
+        "gilded": "Gilded",
+        "glossy": "Glossy",
+        "halofoil": "Halo Foil",
+        "invisibleink": "Invisible Ink",
+        "magnified": "Magnified",
+        "manafoil": "Mana Foil",
+        "oilslick": "Oil Slick",
+        "rainbowfoil": "Rainbow Foil",
+        "raisedfoil": "Raised Foil",
+        "ripplefoil": "Ripple Foil",
+        "serialized": "Serialized",
+        "silverfoil": "Silver Foil",
+        "stamped": "Stamped",
+        "stepandcompleat": "Step and Compleat"
+    },
+    "pagination": {
+        "all": "All",
+        "sixty": "60",
+        "onehundredtwenty": "120",
+        "twohundredfourty": "240"
+    },
+    "table": {
+        "sortBy": "Sort by",
+        "sortOrder": "Direction",
+        "ascending": "Ascending",
+        "descending": "Descending"
+    },
+    "filters": {
+        "title": "Filters",
+        "name": "Name",
+        "reset": "Reset",
+        "apply": "Apply",
+        "rarity": "Rarity",
+        "type": "Type",
+        "set": "Set",
+        "country": "Country",
+        "quality": "Quality",
+        "language": "Language",
+        "price": "Max Price",
+        "comment": "Comment",
+        "internal-comment": "Private Comment",
+        "minPrice": "Min. Price",
+        "maxPrice": "Max. Price",
+        "quantity": "Quantity",
+        "filter": "Apply filters",
+        "createdAtStart": "Created from",
+        "createdAtEnd": "Created until",
+        "sellerName": "Seller name",
+        "itemName": "Product Name",
+        "buyerName": "Buyer Name",
+        "orderId": "Order Number"
+    },
+    "rarities": {
+        "common": "Common",
+        "uncommon": "Uncommon",
+        "rare": "Rare",
+        "mythic": "Mythic",
+        "special": "Special"
+    },
+    "cardTypes": {
+        "artifact": "Artifact",
+        "creature": "Creature",
+        "enchantment": "Enchantment",
+        "instant": "Instant",
+        "land": "Land",
+        "sorcery": "Sorcery"
+    },
+    "colors": {
+        "W": "White",
+        "U": "Blue",
+        "B": "Black",
+        "R": "Red",
+        "G": "Green",
+        "C": "Colorless"
+    },
+    "confirmation": {
+        "delete": "Really delete?",
+        "edit": "Save changes?"
+    },
+    "countries": {
+        "AL": "Albania",
+        "AD": "Andorra",
+        "AM": "Armenia",
+        "AT": "Austria",
+        "AZ": "Azerbaijan",
+        "BY": "Belarus",
+        "BE": "Belgium",
+        "BA": "Bosnia and Herzegovina",
+        "BG": "Bulgaria",
+        "HR": "Croatia",
+        "CY": "Cyprus",
+        "CZ": "Czech Republic",
+        "DK": "Denmark",
+        "EE": "Estonia",
+        "FI": "Finland",
+        "FR": "France",
+        "GE": "Georgia",
+        "DE": "Germany",
+        "GR": "Greece",
+        "HU": "Hungary",
+        "IS": "Iceland",
+        "IE": "Ireland",
+        "IT": "Italy",
+        "KZ": "Kazakhstan",
+        "XK": "Kosovo",
+        "LV": "Latvia",
+        "LI": "Liechtenstein",
+        "LT": "Lithuania",
+        "LU": "Luxembourg",
+        "MT": "Malta",
+        "MD": "Moldova",
+        "MC": "Monaco",
+        "ME": "Montenegro",
+        "NL": "Netherlands",
+        "MK": "North Macedonia",
+        "NO": "Norway",
+        "PL": "Poland",
+        "PT": "Portugal",
+        "RO": "Romania",
+        "RU": "Russia",
+        "SM": "San Marino",
+        "RS": "Serbia",
+        "SK": "Slovakia",
+        "SI": "Slovenia",
+        "ES": "Spain",
+        "SE": "Sweden",
+        "CH": "Switzerland",
+        "TR": "Turkey",
+        "UA": "Ukraine",
+        "GB": "United Kingdom",
+        "VA": "Vatican City"
+    },
+    "required": "Required",
+    "optional": "Optional",
+    "cancel": "Cancel",
+    "save": "Save",
+    "all": "All",
+    "noMatter": "Any",
+    "yes": "Yes",
+    "no": "No",
+    "dontChange": "Don't change",
+    "selectAll": "Select all",
+    "close": "Close",
+    "shareDialog": {
+        "share": "Share"
+    },
+    "copiedToClipboard": "Copied to clipboard",
+    "upload": "Upload",
+    "send": "Send",
+    "cookieconsent": {
+        "title": "Use of cookies: We need your consent",
+        "p1": "We use cookies on this site. These also handle privacy data.",
+        "p2": "We use the following cookies:",
+        "li1": "Necessary cookies",
+        "li2": "Statistical cookies",
+        "li3": "Third-party cookies",
+        "p3": "By clicking „Accept all“ you consent to the use of all cookies.",
+        "button": {
+            "acceptAll": "Accept all",
+            "decline": "Do not accept",
+            "acceptNeeded": "Accept required cookies"
+        }
+    },
+    "footer": {
+        "nav": {
+            "help": "Help",
+            "termsAndConditions": "Terms and Conditions",
+            "aboutUs ": "About us",
+            "dataPolicy": "Privacy Policy",
+            "bugReport": "Report bug",
+            "support": "Support",
+            "helpCenter": "Help Center"
+        }
+    },
+    "csvUploadArea": "Drop CSV file here or click to upload",
+    "row": "Row",
+    "rename": "Rename",
+    "delete": "Delete",
+    "bugReportDialog": {
+        "emailHelperText": "for possible further questions",
+        "email": "Email (optional)",
+        "description": "Description",
+        "title": "Title",
+        "category": "Category",
+        "general": "General",
+        "cardErrors": "Card errors",
+        "ui": "UI",
+        "performance": "Performance",
+        "dialogTitle": "Report a Bug"
+    },
+    "bugReport": {
+        "success": "Bug Report successfully submitted. Thank you",
+        "error": "Error submitting the bug report"
+    },
+    "support": {
+        "dialogTitle": "Contact Support",
+        "subject": "Subject",
+        "message": "Message",
+        "email": "Email (optional)",
+        "emailHelperText": "We'll use this address to respond to your inquiry",
+        "category": "Category",
+        "success": "Your support request has been submitted successfully. We'll respond as soon as possible.",
+        "error": "There was a problem submitting your support request. Please try again later.",
+        "categories": {
+            "general": "General Question",
+            "account": "Account Issue",
+            "orders": "Orders & Shipping",
+            "payments": "Payments & Billing",
+            "technical": "Technical Support",
+            "other": "Other"
+        }
+    },
+    "copy": "Copy to clipboard",
+    "shippingRange": {
+        "domestic": "Domestic",
+        "international": "International"
+    },
+    "shippingType": {
+        "letter": "Letter",
+        "letter_with_tracking": "Letter with tracking",
+        "package": "Package",
+        "package_with_tracking": "Package with tracking"
+    },
+    "games": {
+        "mtg": "Magic: The Gathering",
+        "pokemon": "Pokemon",
+        "yugioh": "Yu-Gi-Oh!"
+    },
+    "checkout": {
+        "doneSingleOrder": {
+            "requestCancellationMessage": "Reason for cancellation"
+        }
+    },
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "import": "Import",
+    "items": "Items",
+    "back": "Back",
+    "notFound": "Not found",
+    "create": "Create",
+    "name": "Name",
+    "description": "Description",
+    "add": "Add",
+    "condition": "Condition",
+    "language": "Language",
+    "any": "Any"
+}

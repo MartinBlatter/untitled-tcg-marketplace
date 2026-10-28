@@ -1,0 +1,75 @@
+{
+    "inventory": {
+        "title": "Inventaire",
+        "tabs": {
+            "complete": "Inventaire complet",
+            "private": "Privé",
+            "forSale": "À vendre"
+        },
+        "inventoryColumns": {
+            "name": "Nom",
+            "set": "Édition",
+            "rarity": "Rareté",
+            "price": "Prix",
+            "number": "Numéro",
+            "quantity": "Quantité",
+            "language": "Langue",
+            "comment": "Commentaire",
+            "quality": "État",
+            "internalComment": "Commentaire interne",
+            "foil": "Foil",
+            "altered": "Altérée",
+            "signed": "Signée",
+            "misprint": "Erreur d'impression",
+            "graded": "Gradée",
+            "gradingCompany": "Compagnie de notation"
+        },
+        "icons": {
+            "delete": "Supprimer",
+            "clone": "Dupliquer cet article",
+            "edit": "Enregistrer les modifications",
+            "list": "Afficher au public",
+            "unlist": "Cacher du public"
+        },
+        "successUpdate": "Mis à jour avec succès",
+        "errorUpdate": "Erreur lors de la mise à jour",
+        "successDelete": "Supprimé avec succès",
+        "errorDelete": "Erreur lors de la suppression",
+        "successClone": "Copié avec succès",
+        "errorClone": "Erreur lors de la copie",
+        "successAdd": "Ajouté avec succès",
+        "errorAdd": "Erreur lors de l'ajout",
+        "successUpload": "Téléchargé avec succès",
+        "errorUpload": "Erreur lors du téléchargement",
+        "errorFetch": "Erreur lors du chargement de l'inventaire",
+        "successAddToCart": "Ajouté au panier avec succès",
+        "errorAddToCart": "Erreur lors de l'ajout au panier",
+        "import": {
+            "importFromTCGPowertools": "Importer depuis TCG Powertools",
+            "title": "Importer depuis TCG Powertools",
+            "description": "Importez des cartes depuis TCG Powertools dans votre inventaire. Téléchargez un fichier CSV exporté depuis TCG Powertools. Le système associera le cardmarketId à votre inventaire et importera les cartes.",
+            "listingOption": "Importer les cartes comme",
+            "optionListed": "Listées (visibles par les autres)",
+            "optionUnlisted": "Non listées (privées)",
+            "dropzoneText": "Glissez-déposez votre fichier CSV ici ou cliquez pour parcourir",
+            "dropzoneSubtext": "Seuls les fichiers .csv sont pris en charge",
+            "startImport": "Démarrer l'importation",
+            "importing": "Importation en cours...",
+            "importedCount": "{count} articles importés avec succès",
+            "failedCount": "{count} articles n'ont pas pu être importés",
+            "errorDetails": "Détails de l'erreur",
+            "errorRow": "Ligne {row}",
+            "andMoreErrors": "Et {count} erreurs supplémentaires",
+            "invalidFileType": "Type de fichier non valide. Seuls les fichiers .csv sont pris en charge.",
+            "serverError": "Une erreur s'est produite lors du traitement de l'importation.",
+            "noFileSelected": "Aucun fichier sélectionné",
+            "processingFile": "Traitement du fichier en cours, cela peut prendre un moment...",
+            "processingTime": "Temps de traitement : {time}",
+            "downloadFailedRows": "Télécharger les lignes échouées",
+            "downloadPotentialMatches": "Télécharger les correspondances potentielles"
+        }
+    },
+    "errors": {
+        "required": "Ce champ est obligatoire"
+    }
+}

@@ -1,0 +1,4 @@
+# Drizzle records a sha256 of each migration file's bytes in __drizzle_migrations.
+# Pin LF so that hash is identical on every machine regardless of core.autocrlf.
+*.sql text eol=lf
+drizzle/meta/*.json text eol=lf

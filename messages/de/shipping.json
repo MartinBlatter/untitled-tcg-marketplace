@@ -1,0 +1,25 @@
+{
+    "shipping": {
+        "title": "Versandkosten",
+        "defaultShipping": "Standard-Versandkosten verwenden",
+        "customShipping": "Eigene Versandkosten definieren",
+        "domestic": "Inland",
+        "international": "International",
+        "letter": "Brief",
+        "package": "Paket",
+        "insuredShippingMandatory": "Versand mit Tracking immer erforderlich",
+        "form": {
+            "range": "Bereich",
+            "type": "Typ",
+            "cards": "Karten",
+            "maxValue": "Maximaler Wert",
+            "weight": "Gewicht",
+            "price": "Preis",
+            "tracking": "Tracking kostenlos",
+            "add": "Versandvariante hinzufügen"
+        },
+        "costs": "Versandkosten",
+        "useCustom": "Eigene Versandkosten verwenden",
+        "useCustomTooltip": "Stellen Sie sicher, dass Sie Versandkosten definieren, wenn Sie dies aktivieren, da Ihre Verkäufe sonst keine Versandkosten haben werden."
+    }
+}

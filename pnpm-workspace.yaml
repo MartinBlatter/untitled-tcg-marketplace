@@ -1,0 +1,34 @@
+allowBuilds:
+  # esbuild backs tsx and drizzle-kit; unrs-resolver backs import resolution.
+  esbuild: true
+  unrs-resolver: true
+  # ssh2 (+ optional cpu-features) backs the SFTP upload in
+  # app/api/magic/download-card-images. Its crypto binding is OPTIONAL: without
+  # MSVC build tools installed it fails loudly and ssh2 falls back to pure-JS
+  # crypto, which works. Set these to false to silence that output.
+  ssh2: true
+  cpu-features: true
+  # Next.js 16's own toolchain.
+  '@parcel/watcher': true
+  '@swc/core': true
+minimumReleaseAgeExclude:
+  - '@oxlint/binding-android-arm-eabi@1.90.0'
+  - '@oxlint/binding-android-arm64@1.90.0'
+  - '@oxlint/binding-darwin-arm64@1.90.0'
+  - '@oxlint/binding-darwin-x64@1.90.0'
+  - '@oxlint/binding-freebsd-x64@1.90.0'
+  - '@oxlint/binding-linux-arm-gnueabihf@1.90.0'
+  - '@oxlint/binding-linux-arm-musleabihf@1.90.0'
+  - '@oxlint/binding-linux-arm64-gnu@1.90.0'
+  - '@oxlint/binding-linux-arm64-musl@1.90.0'
+  - '@oxlint/binding-linux-ppc64-gnu@1.90.0'
+  - '@oxlint/binding-linux-riscv64-gnu@1.90.0'
+  - '@oxlint/binding-linux-riscv64-musl@1.90.0'
+  - '@oxlint/binding-linux-s390x-gnu@1.90.0'
+  - '@oxlint/binding-linux-x64-gnu@1.90.0'
+  - '@oxlint/binding-linux-x64-musl@1.90.0'
+  - '@oxlint/binding-openharmony-arm64@1.90.0'
+  - '@oxlint/binding-win32-arm64-msvc@1.90.0'
+  - '@oxlint/binding-win32-ia32-msvc@1.90.0'
+  - '@oxlint/binding-win32-x64-msvc@1.90.0'
+  - oxlint@1.90.0

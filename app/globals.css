@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    scrollbar-width: thin;
+}
+
+div.splide {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 64px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+ul.splide__list {
+    height: 500px;
+}
+
+body.dark .invertFilter {
+    filter: invert(100%);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.magic-rarity {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.common {
+    background-color: black;
+}
+
+.uncommon {
+    background-color: grey;
+}
+
+.rare {
+    background-color: #ffff66;
+}
+
+.mythic {
+    background-color: #c70707;
+}
+
+.special {
+    background-color: purple;
+}
+
+.search-result-link {
+    text-decoration: none;
+}
+
+.single-badge > .MuiBadge-badge {
+    top: auto;
+    bottom: 5px;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    transform: translateX(0); /* Ensure no horizontal translation */
+}
+
+.top-pagination {
+    margin-top: 1rem;
+}
+
+.bottom-pagination {
+    margin-top: 0.5rem;
+}
+
+.MuiDataGrid-columnHeaders, .MuiDataGrid-columnHeaders div {
+    background-color: var(--mui-palette-primary-dark);
+}
+
+.MuiDataGrid-columnHeaders .MuiDataGrid-columnSeparator {
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 899px) {
+    header .MuiToolbar-root {
+        min-height: 120px;
+    }
+
+    header .MuiToolbar-root > button,
+    header .MuiToolbar-root > a {
+        margin-bottom: 55px;
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "shipping": {
+        "title": "Shipping rates",
+        "defaultShipping": "Use Default shipping rates",
+        "customShipping": "Define own shipping rates",
+        "domestic": "Domestic",
+        "international": "International",
+        "letter": "Letter",
+        "package": "Package",
+        "insuredShippingMandatory": "Always require shipping with tracking",
+        "form": {
+            "range": "Range",
+            "type": "Type",
+            "cards": "Cards",
+            "maxValue": "Max Value",
+            "weight": "Weight",
+            "price": "Price",
+            "tracking": "Tracking free",
+            "add": "Add shipping variant"
+        },
+        "costs": "Shipping costs",
+        "useCustom": "Use custom shipping rates",
+        "useCustomTooltip": "Make sure to define shipping rates if you set this, otherwise your sales will end up having no shipping cost."
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "inventory": {
+        "title": "Inventario",
+        "tabs": {
+            "complete": "Inventario completo",
+            "private": "Privado",
+            "forSale": "En venta"
+        },
+        "inventoryColumns": {
+            "name": "Nombre",
+            "set": "Edición",
+            "rarity": "Rareza",
+            "price": "Precio",
+            "number": "Número",
+            "quantity": "Cantidad",
+            "language": "Idioma",
+            "comment": "Comentario",
+            "quality": "Calidad",
+            "internalComment": "Comentario interno",
+            "foil": "Foil",
+            "altered": "Alterada",
+            "signed": "Firmada",
+            "misprint": "Error de impresión",
+            "graded": "Graduada",
+            "gradingCompany": "Compañía de gradación"
+        },
+        "icons": {
+            "delete": "Eliminar",
+            "clone": "Clonar este artículo",
+            "edit": "Guardar cambios",
+            "list": "Mostrar al público",
+            "unlist": "Ocultar del público"
+        },
+        "successUpdate": "Actualizado con éxito",
+        "errorUpdate": "Error al actualizar",
+        "successDelete": "Eliminado con éxito",
+        "errorDelete": "Error al eliminar",
+        "successClone": "Copiado con éxito",
+        "errorClone": "Error al copiar",
+        "successAdd": "Añadido con éxito",
+        "errorAdd": "Error al añadir",
+        "successUpload": "Cargado con éxito",
+        "errorUpload": "Error al cargar",
+        "errorFetch": "Error al obtener el inventario",
+        "successAddToCart": "Añadido al carrito con éxito",
+        "errorAddToCart": "Error al añadir al carrito",
+        "import": {
+            "importFromTCGPowertools": "Importar desde TCG Powertools",
+            "title": "Importar desde TCG Powertools",
+            "description": "Importa cartas desde TCG Powertools a tu inventario. Sube un archivo CSV exportado desde TCG Powertools. El sistema mapeará el cardmarketId a tu inventario e importará las cartas.",
+            "listingOption": "Importar cartas como",
+            "optionListed": "Listadas (visibles para otros)",
+            "optionUnlisted": "No listadas (privadas)",
+            "dropzoneText": "Arrastra y suelta tu archivo CSV aquí o haz clic para explorar",
+            "dropzoneSubtext": "Solo se admiten archivos .csv",
+            "startImport": "Iniciar importación",
+            "importing": "Importando...",
+            "importedCount": "{count} artículos importados con éxito",
+            "failedCount": "{count} artículos no pudieron ser importados",
+            "errorDetails": "Detalles del error",
+            "errorRow": "Fila {row}",
+            "andMoreErrors": "Y {count} errores más",
+            "invalidFileType": "Tipo de archivo no válido. Solo se admiten archivos .csv.",
+            "serverError": "Se produjo un error al procesar la importación.",
+            "noFileSelected": "Ningún archivo seleccionado",
+            "processingFile": "Procesando archivo, esto puede llevar un momento...",
+            "processingTime": "Tiempo de procesamiento: {time}",
+            "downloadFailedRows": "Descargar filas fallidas",
+            "downloadPotentialMatches": "Descargar coincidencias potenciales"
+        }
+    },
+    "errors": {
+        "required": "Este campo es obligatorio"
+    }
+}

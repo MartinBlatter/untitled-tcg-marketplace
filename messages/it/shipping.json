@@ -1,0 +1,25 @@
+{
+    "shipping": {
+        "title": "Spese di spedizione",
+        "defaultShipping": "Usa tariffe di spedizione predefinite",
+        "customShipping": "Definisci tariffe di spedizione personalizzate",
+        "domestic": "Nazionale",
+        "international": "Internazionale",
+        "letter": "Lettera",
+        "package": "Pacco",
+        "insuredShippingMandatory": "Spedizione assicurata obbligatoria",
+        "form": {
+            "range": "Intervallo",
+            "type": "Tipo",
+            "cards": "Carte",
+            "maxValue": "Valore massimo",
+            "weight": "Peso",
+            "price": "Prezzo",
+            "tracking": "Tracciamento gratuito",
+            "add": "Aggiungi variante di spedizione"
+        },
+        "costs": "Costi di spedizione",
+        "useCustom": "Usa tariffe di spedizione personalizzate",
+        "useCustomTooltip": "Assicurati di definire le tariffe di spedizione se attivi questa opzione, altrimenti le tue vendite non avranno costi di spedizione."
+    }
+}

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 500" width="1900" height="500" role="img" aria-label="Abstract grid of card slots in blue and cyan">
+  <defs>
+    <linearGradient id="b3-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07122E"/>
+      <stop offset="0.5" stop-color="#12285C"/>
+      <stop offset="1" stop-color="#060F26"/>
+    </linearGradient>
+    <radialGradient id="b3-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4169E1" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#4169E1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b3-cyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00FFFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#00FFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b3-lit" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#B9FFFF"/>
+      <stop offset="1" stop-color="#3FC9E8"/>
+    </linearGradient>
+    <linearGradient id="b3-lit-alt" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#C9D9FF"/>
+      <stop offset="1" stop-color="#4169E1"/>
+    </linearGradient>
+    <linearGradient id="b3-vignette" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#040A1C" stop-opacity="0.9"/>
+      <stop offset="0.3" stop-color="#040A1C" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#040A1C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#040A1C" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1900" height="500" fill="url(#b3-bg)"/>
+  <ellipse cx="950" cy="250" rx="820" ry="430" fill="url(#b3-glow)"/>
+  <ellipse cx="1380" cy="380" rx="430" ry="300" fill="url(#b3-cyan)"/>
+
+  <g stroke="#7FB4FF" stroke-opacity="0.10" stroke-width="1.5">
+    <path d="M0 120 L1900 170"/>
+    <path d="M0 380 L1900 330"/>
+    <path d="M480 0 L540 500"/>
+    <path d="M1420 0 L1360 500"/>
+  </g>
+
+  <!--
+    A binder page: nine empty slots, three of them filled. Slot pitch is 182 x
+    228 around the centre so the lit cards stay inside the strip that survives a
+    narrow viewport's centre crop.
+  -->
+  <g>
+    <g stroke="#8FC7FF" stroke-opacity="0.3" stroke-width="2.5" fill="#0B1C44" fill-opacity="0.45">
+      <rect x="586" y="42" width="152" height="186" rx="10"/>
+      <rect x="768" y="42" width="152" height="186" rx="10"/>
+      <rect x="950" y="42" width="152" height="186" rx="10"/>
+      <rect x="1132" y="42" width="152" height="186" rx="10"/>
+      <rect x="586" y="256" width="152" height="186" rx="10"/>
+      <rect x="768" y="256" width="152" height="186" rx="10"/>
+      <rect x="950" y="256" width="152" height="186" rx="10"/>
+      <rect x="1132" y="256" width="152" height="186" rx="10"/>
+    </g>
+
+    <g>
+      <rect x="768" y="42" width="152" height="186" rx="10" fill="url(#b3-lit)"/>
+      <rect x="782" y="56" width="124" height="112" rx="5" fill="#0B3A52" fill-opacity="0.55"/>
+      <path d="M844 78 L862 112 L844 138 L826 112 Z" fill="#EAFFFF" fill-opacity="0.9"/>
+      <rect x="782" y="178" width="88" height="8" rx="4" fill="#0B3A52" fill-opacity="0.5"/>
+      <rect x="782" y="198" width="60" height="8" rx="4" fill="#0B3A52" fill-opacity="0.32"/>
+    </g>
+
+    <g>
+      <rect x="1132" y="256" width="152" height="186" rx="10" fill="url(#b3-lit-alt)"/>
+      <rect x="1146" y="270" width="124" height="112" rx="5" fill="#101F4F" fill-opacity="0.6"/>
+      <path d="M1208 292 L1226 326 L1208 352 L1190 326 Z" fill="#EEF3FF" fill-opacity="0.9"/>
+      <rect x="1146" y="392" width="88" height="8" rx="4" fill="#101F4F" fill-opacity="0.5"/>
+      <rect x="1146" y="412" width="60" height="8" rx="4" fill="#101F4F" fill-opacity="0.32"/>
+    </g>
+
+    <g>
+      <rect x="586" y="256" width="152" height="186" rx="10" fill="url(#b3-lit)" fill-opacity="0.85"/>
+      <rect x="600" y="270" width="124" height="112" rx="5" fill="#0B3A52" fill-opacity="0.55"/>
+      <path d="M662 292 L680 326 L662 352 L644 326 Z" fill="#EAFFFF" fill-opacity="0.85"/>
+      <rect x="600" y="392" width="88" height="8" rx="4" fill="#0B3A52" fill-opacity="0.5"/>
+      <rect x="600" y="412" width="60" height="8" rx="4" fill="#0B3A52" fill-opacity="0.32"/>
+    </g>
+  </g>
+
+  <g fill="#9FE8FF" fill-opacity="0.3">
+    <circle cx="420" cy="180" r="3"/>
+    <circle cx="1520" cy="140" r="2.5"/>
+    <circle cx="1600" cy="360" r="3"/>
+    <circle cx="340" cy="400" r="2.5"/>
+  </g>
+
+  <rect width="1900" height="500" fill="url(#b3-vignette)"/>
+</svg>
