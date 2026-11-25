@@ -5,6 +5,8 @@ list inventory, buyers search and check out, and the whole order lifecycle —
 picking lists, shipping, funds, buylists, wishlists and messaging — is handled
 in-app.
 
+![The marketplace front page with the banner carousel and product categories](docs/screenshot.png)
+
 > **Project status:** this is a personal, unfinished side project, published as a
 > code reference. It is not a hosted service, it has never been operated
 > commercially, and several areas are incomplete (see
